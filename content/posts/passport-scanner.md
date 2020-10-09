@@ -1,5 +1,5 @@
 ---
-title: "Mobile Passport Scanner"
+title: "Mobile Passport Scanner 🛂"
 date: 2020-04-07T14:12:24+10:00
 draft: false
 ---

@@ -2,23 +2,23 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>ovdixon</title>
-    <link>https://ovdixon-86d73.web.app/</link>
+    <link>https://ovdixon.com/</link>
     <description>ovdixon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 07 Apr 2020 14:12:24 +1000</lastBuildDate>
     
-    <atom:link href="https://ovdixon-86d73.web.app/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ovdixon.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Mobile Passport Scanner</title>
-      <link>https://ovdixon-86d73.web.app/posts/my-first-post/</link>
+      <title>Mobile Passport Scanner 🛂</title>
+      <link>https://ovdixon.com/posts/passport-scanner/</link>
       <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
       
-      <guid>https://ovdixon-86d73.web.app/posts/my-first-post/</guid>
-      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
-&lt;p&gt;In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with large volumes of guests and accuracy is paramount.&lt;/p&gt;
+      <guid>https://ovdixon.com/posts/passport-scanner/</guid>
+      <description>&lt;h4 id=&#34;problem&#34;&gt;Problem&lt;/h4&gt;
+&lt;p&gt;In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.&lt;/p&gt;
 &lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
 &lt;p&gt;A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.&lt;/p&gt;
 &lt;figure&gt;
@@ -37,6 +37,8 @@
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+&lt;h4 id=&#34;challenges&#34;&gt;Challenges&lt;/h4&gt;
+&lt;p&gt;This was my first iOS project so I had some difficulty with Xcode but overall enjoyed the experience of coding in Swift. Because the app  processes sensitive passport information, I had to consider data privacy and protection. All data processed is stored locally on device, however the app would benefit from adding password protection. The app should adhere to GDRP laws as there is a legal basis for providing passport data to immigration services.&lt;/p&gt;
 </description>
     </item>
     

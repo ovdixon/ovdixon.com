@@ -1,5 +1,5 @@
 languageCode: "en-us"
-baseUrl: "https://ovdixon-86d73.web.app"
+baseUrl: "https://ovdixon.com"
 title: "ovdixon"
 theme: "anubis"
 paginate: 10
@@ -13,6 +13,11 @@ menu:
     name: Archive
     title: Archive
     url: /posts/
+    weight: 0
+  - identifier: about
+    name: About
+    title: About
+    url: /about
     weight: 0
 
 params:
