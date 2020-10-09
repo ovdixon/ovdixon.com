@@ -17,7 +17,20 @@
       <pubDate>Mon, 07 Sep 2020 14:12:24 +1000</pubDate>
       
       <guid>https://ovdixon-86d73.web.app/posts/my-first-post/</guid>
-      <description></description>
+      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
+&lt;p&gt;In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with large volumes of guests and accuracy is paramount.&lt;/p&gt;
+&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
+&lt;p&gt;A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;sketch.jpg&#34;
+         alt=&#34;Sketch&#34; width=&#34;60%&#34; height=&#34;auto&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Sketch&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
+&lt;p&gt;A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

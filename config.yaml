@@ -1,9 +1,9 @@
 languageCode: "en-us"
 baseUrl: "https://ovdixon-86d73.web.app"
-title: "Anubis"
+title: "ovdixon"
 theme: "anubis"
 paginate: 10
-disqusShortname: yourdiscussshortname
+#disqusShortname: yourdiscussshortname
 googleAnalytics: UA-123-45
 enableRobotsTXT: true
 
@@ -16,7 +16,7 @@ menu:
     weight: 0
 
 params:
-  author: ""
+  author: "Oliver Dixon"
   description: ""
   images:
     - images/og-featured.png # relative path to "static" directory
