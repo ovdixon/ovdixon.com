@@ -12,6 +12,18 @@
     
     
     <item>
+      <title>About</title>
+      <link>https://ovdixon.com/about/</link>
+      <pubDate>Fri, 09 Oct 2020 18:36:54 +1100</pubDate>
+      
+      <guid>https://ovdixon.com/about/</guid>
+      <description>&lt;p&gt;G&amp;rsquo;day 👋,&lt;/p&gt;
+&lt;p&gt;My name is Ollie, and I am currently completing a Bachelor of Design Computing at the University of Sydney. I created this website to document the little projects that I keep myself busy with!&lt;/p&gt;
+&lt;p&gt;If you have any questions shoot me an email at &lt;a href=&#34;mailto:ovdixon@icloud.com&#34;&gt;ovdixon@icloud.com&lt;/a&gt; 📧&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Mobile Passport Scanner 🛂</title>
       <link>https://ovdixon.com/posts/passport-scanner/</link>
       <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>

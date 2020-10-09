@@ -2,10 +2,12 @@
 title: "Mobile Passport Scanner 🛂"
 date: 2020-04-07T14:12:24+10:00
 draft: false
+summary: "An iOS app for scanning the Machine Readable Zone (MRZ) from a passport."
 ---
 
 #### Problem
 In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.
+
 
 #### Ideation
 A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration. 
