@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Anubis</title>
+    <title>Posts on ovdixon</title>
     <link>https://ovdixon-86d73.web.app/posts/</link>
-    <description>Anubis (Posts)</description>
+    <description>ovdixon (Posts)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Sep 2020 14:12:24 +1000</lastBuildDate>
+    <lastBuildDate>Tue, 07 Apr 2020 14:12:24 +1000</lastBuildDate>
     
     <atom:link href="https://ovdixon-86d73.web.app/posts/index.xml" rel="self" type="application/rss+xml" />
     
@@ -14,7 +14,7 @@
     <item>
       <title>Mobile Passport Scanner</title>
       <link>https://ovdixon-86d73.web.app/posts/my-first-post/</link>
-      <pubDate>Mon, 07 Sep 2020 14:12:24 +1000</pubDate>
+      <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
       
       <guid>https://ovdixon-86d73.web.app/posts/my-first-post/</guid>
       <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
@@ -22,14 +22,21 @@
 &lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
 &lt;p&gt;A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;sketch.jpg&#34;
-         alt=&#34;Sketch&#34; width=&#34;60%&#34; height=&#34;auto&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Sketch&lt;/p&gt;
+    &lt;img src=&#34;ideation.png&#34;
+         alt=&#34;Simple wireframe sketch (left) served as a template for designing the storyboard (right)&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Simple wireframe sketch (left) served as a template for designing the storyboard (right)&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
-&lt;p&gt;A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.&lt;/p&gt;
+&lt;p&gt;The app was developed for iOS using Xcode. An image of the passport is captured using the system document scanner, VisionKit. The scanned image is then processed using the VNRecognizeTextRequest class, an image analysis request that finds and recognises the the machine readable zone (MRZ) at the bottom of the passport. The MRZ lines are then parsed using third-party &lt;a href=&#34;https://github.com/Mattijah/QKMRZParser&#34;&gt;QKMRZParser&lt;/a&gt; framework to extract the name, passport number, nationality, date of birth, sex, and passport expiration date.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;demo.gif&#34;
+         alt=&#34;Demo of scanning a passport into the app (running on iPad Pro 11)&#34; width=&#34;90%&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Demo of scanning a passport into the app (running on iPad Pro 11)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
 </description>
     </item>
     
