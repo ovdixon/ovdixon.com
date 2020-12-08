@@ -2,7 +2,7 @@
 title: "Machine learning for beach litter detection 🏝"
 date: 2020-04-07T14:12:24+10:00
 draft: false
-summary: "An iOS app for scanning the Machine Readable Zone (MRZ) from a passport."
+summary: "Training a beach litter detection model using CreateML."
 ---
 
 #### Background
@@ -20,6 +20,6 @@ I collated a set of 40 images of collected coastal litter. Initially, I planned 
 
 To be continued...
 
-{{< figure src="test.png" caption="Simple wireframe sketch (left) served as a template for designing the storyboard (right)">}}
+{{< figure src="test.png" caption="Some initial results">}}
 
 
