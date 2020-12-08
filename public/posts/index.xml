@@ -12,6 +12,25 @@
     
     
     <item>
+      <title>Machine learning for beach litter detection 🏝</title>
+      <link>https://ovdixon.com/posts/litter-detection/</link>
+      <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/posts/litter-detection/</guid>
+      <description>&lt;h4 id=&#34;background&#34;&gt;Background&lt;/h4&gt;
+&lt;p&gt;Huge amounts of litter wash up along coastlines around the world. Not only is this problem an ugly eyesore, it poses a devastating environmental impact to wildlife, water quality and human health. Currently the most commonly used method for monitoring the litter that washes onto coastlines is boots on the ground visual counting, often involving large teams of peoples. However if we consider the sheer size and accessibility of coastal areas in Australia alone this is overwhelmingly inefficient.&lt;/p&gt;
+&lt;p&gt;I sought to explore the feasibility of training a simple machine learning model for object detection of beach litter. A forewarning that this is one of my first ventures into the world of ML so it was very much a learning process for myself included.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;ideation.png&#34;
+         alt=&#34;Simple wireframe sketch (left) served as a template for designing the storyboard (right)&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Simple wireframe sketch (left) served as a template for designing the storyboard (right)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
       <title>Mobile Passport Scanner 🛂</title>
       <link>https://ovdixon.com/posts/passport-scanner/</link>
       <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
