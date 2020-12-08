@@ -10,7 +10,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Mobile Passport Scanner 🛂 - ovdixon</title>
+<title>Generative Art 🖼 - ovdixon</title>
 <meta name="description" content="">
 
 <link rel="icon" type="image/x-icon" href="https://ovdixon.com/favicon.ico">
@@ -54,19 +54,19 @@
 
 <script src="https://ovdixon.com/js/main.js?rnd=1602234008" type="text/javascript" charset="utf-8"></script>
 
-<meta property="og:title" content="Mobile Passport Scanner 🛂" />
-<meta property="og:description" content="An iOS app for scanning the Machine Readable Zone (MRZ) from a passport." />
+<meta property="og:title" content="Generative Art 🖼" />
+<meta property="og:description" content="An exploration into computer generated art." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://ovdixon.com/posts/passport-scanner/" />
+<meta property="og:url" content="https://ovdixon.com/posts/generative-art/" />
 <meta property="og:image" content="https://ovdixon.com/images/og-featured.png"/>
-<meta property="article:published_time" content="2020-04-07T14:12:24+10:00" />
-<meta property="article:modified_time" content="2020-04-07T14:12:24+10:00" />
+<meta property="article:published_time" content="2019-03-09T19:22:42+11:00" />
+<meta property="article:modified_time" content="2019-03-09T19:22:42+11:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://ovdixon.com/images/og-featured.png"/>
 
-<meta name="twitter:title" content="Mobile Passport Scanner 🛂"/>
-<meta name="twitter:description" content="An iOS app for scanning the Machine Readable Zone (MRZ) from a passport."/>
+<meta name="twitter:title" content="Generative Art 🖼"/>
+<meta name="twitter:description" content="An exploration into computer generated art."/>
 
 
 
@@ -104,31 +104,29 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">Mobile Passport Scanner 🛂</h1>
+            <h1 class="post-title">Generative Art 🖼</h1>
         </header>
         <div class="content">
-            <h4 id="problem">Problem</h4>
-<p>In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.</p>
-<h4 id="ideation">Ideation</h4>
-<p>A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.</p>
+            <p>Computational systems allow for the realization and expression of ideas that are impossible in other media, or in reality. In such a way, generative computer art is a medium of expression beyond the realm of conventional art, one in which difference can be created within indifference. As part of a university course I took in Design Programming I was required to submit a design inspired by an historical example of computer art.</p>
+<h4 id="inspiration">Inspiration</h4>
+<p>Georg Nees was a German academic who is considered one of the pioneers of computer art and generative graphics. He was interested in the relationship between order and disorder in picture composition. This is reflected in the untitled artwork below; Here Nees has introduced random variables into the computer program to produce the disordered lines. These lines are framed within the ordered circles to produce a striking contrast. This artwork served as the inspiration for my own exploration into the practice of generative computer art.</p>
 <figure>
-    <img src="ideation.png"
-         alt="Simple wireframe sketch (left) served as a template for designing the storyboard (right)"/> <figcaption>
-            <p>Simple wireframe sketch (left) served as a template for designing the storyboard (right)</p>
+    <img src="untitled.png"
+         alt="Untitled artwork by Georg Nees"/> <figcaption>
+            <p>Untitled artwork by Georg Nees</p>
         </figcaption>
 </figure>
 
 <h4 id="implementation">Implementation</h4>
-<p>The app was developed for iOS using Xcode. An image of the passport is captured using the system document scanner, VisionKit. The scanned image is then processed using the VNRecognizeTextRequest class, an image analysis request that finds and recognises the the machine readable zone (MRZ) at the bottom of the passport. The MRZ lines are then parsed using third-party <a href="https://github.com/Mattijah/QKMRZParser">QKMRZParser</a> framework to extract the name, passport number, nationality, date of birth, sex, and passport expiration date.</p>
+<p>My design was created using <a href="https://p5js.org">p5.js</a>. This is a client-side library for creating graphic and interactive experiences, based on the core principles of Processing. You can view view the code and live design <a href="https://www.openprocessing.org/sketch/687721">here</a> (doesn&rsquo;t work well in Safari).</p>
 <figure>
-    <img src="demo.gif"
-         alt="Demo of scanning a passport into the app (running on iPad Pro 11)" width="90%"/> <figcaption>
-            <p>Demo of scanning a passport into the app (running on iPad Pro 11)</p>
+    <img src="generations.png"
+         alt="Six random generations of my design"/> <figcaption>
+            <p>Six random generations of my design</p>
         </figcaption>
 </figure>
 
-<h4 id="challenges">Challenges</h4>
-<p>This was my first iOS project so I had some difficulty with Xcode but overall enjoyed the experience of coding in Swift. Because the app  processes sensitive passport information, I had to consider data privacy and protection. All data processed is stored locally on device, however the app would benefit from adding password protection. The app should adhere to GDRP laws as there is a legal basis for providing passport data to immigration services.</p>
+<p>I sought to create a program which would produce ordered patterns from the intersection of two seemingly disordered sets of lines. The absence of any border around the pattern is designed to evoke a sense of curiosity towards the direction and origin of the lines. The experience of being drawn into the pattern before the program generates a new pattern, is a provocative source of thought for the viewer about whether machines can produce works of artistic value.</p>
 
         </div>
         
@@ -138,7 +136,7 @@
 
 <div class="post-info">
     
-        <div class="post-date">2020-04-07</div>
+        <div class="post-date">2019-03-09</div>
     
     <div class="post-taxonomies">
         
@@ -151,12 +149,12 @@
     
         
     <div class="pagination post-pagination">
-        <div class="left pagination-item disabled">
+        <div class="left pagination-item ">
+            
+                <a href="/posts/passport-scanner/">Mobile Passport Scanner 🛂</a>
             
         </div>
-        <div class="right pagination-item ">
-            
-                <a href="/posts/generative-art/">Generative Art 🖼</a>
+        <div class="right pagination-item disabled">
             
         </div>
     </div>
