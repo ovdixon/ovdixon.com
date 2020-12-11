@@ -5,21 +5,21 @@ draft: false
 summary: "Training a beach litter detection model using CreateML."
 ---
 
-#### Background
-Huge amounts of litter wash up along coastlines around the world. Not only is this problem an ugly eyesore, it poses a devastating environmental impact to wildlife, water quality and human health. Currently the most commonly used method for monitoring the litter that washes onto coastlines is boots on the ground visual counting, often involving large teams of peoples. However if we consider the sheer size and accessibility of coastal areas in Australia alone this is overwhelmingly inefficient.
+#### Inspiration
 
-I sought to explore the feasibility of training a simple machine learning model for object detection of beach litter. A forewarning that this is one of my first ventures into the world of ML so it was very much a learning process for myself included.
+{{< figure src="beach-bottle.jpg" caption="A single-use plastic water bottle on a beach">}}
 
-
-#### Gathering Training Data
-
-I collated a set of 40 images of collected coastal litter. Initially, I planned on gathering a much larger dataset. However not only was my laptop underpowered to train a large volume of images without turning into an expensive lap warmer but I also hoped that a small dataset of higher quality images would produce a higher quality model. All images were hand-picked from Google Images
+Huge amounts of litter wash up on along Australian coastlines every day. The most widely used method for monitoring this is visual counting, requiring large teams of peoples. However if we consider the sheer size and accessibility of coastal areas this is overwhelmingly inefficient. 
 
 
-#### Labeling Images
+#### Ideation
 
-To be continued...
+I sought to explore how computer vision technology could can be leveraged to monitor coastal litter. For example, a drone could map a beach to identify the amount and type of litter present. This data could then be fed back to community cleanup groups. Alternatively, someone could take a photo of the plastic they collected on their morning beach stroll. This image could be automatically processed through computer vision for data contributing to a citizen science project.
 
-{{< figure src="test.png" caption="Some initial results">}}
+
+#### Implementation
+I scraped 40 images rom Instagram the hashtag #take3forthesea; a community initiative where people collect three pieces of rubbish every time they visit a beach, waterway, or anywhere. I trained my model to recognise two pieces of rubbish.
+
+
 
 
