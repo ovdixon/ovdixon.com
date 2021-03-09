@@ -1,5 +1,5 @@
 ---
-title: "Teaching my iPhone to recognise fish species without a single line of code 🐠"
+title: "Teaching my iPhone to recognise fish species🐠"
 date: 2020-12-07T14:12:24+10:00
 draft: false
 summary: "A foray into image classification using CreateML"
