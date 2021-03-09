@@ -28,20 +28,19 @@
       <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
       
       <guid>https://ovdixon.com/posts/litter-detection/</guid>
-      <description>&lt;h4 id=&#34;background&#34;&gt;Background&lt;/h4&gt;
-&lt;p&gt;Huge amounts of litter wash up along coastlines around the world. Not only is this problem an ugly eyesore, it poses a devastating environmental impact to wildlife, water quality and human health. Currently the most commonly used method for monitoring the litter that washes onto coastlines is boots on the ground visual counting, often involving large teams of peoples. However if we consider the sheer size and accessibility of coastal areas in Australia alone this is overwhelmingly inefficient.&lt;/p&gt;
-&lt;p&gt;I sought to explore the feasibility of training a simple machine learning model for object detection of beach litter. A forewarning that this is one of my first ventures into the world of ML so it was very much a learning process for myself included.&lt;/p&gt;
-&lt;h4 id=&#34;gathering-training-data&#34;&gt;Gathering Training Data&lt;/h4&gt;
-&lt;p&gt;I collated a set of 40 images of collected coastal litter. Initially, I planned on gathering a much larger dataset. However not only was my laptop underpowered to train a large volume of images without turning into an expensive lap warmer but I also hoped that a small dataset of higher quality images would produce a higher quality model. All images were hand-picked from Google Images&lt;/p&gt;
-&lt;h4 id=&#34;labeling-images&#34;&gt;Labeling Images&lt;/h4&gt;
-&lt;p&gt;To be continued&amp;hellip;&lt;/p&gt;
+      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;test.png&#34;
-         alt=&#34;Some initial results&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Some initial results&lt;/p&gt;
+    &lt;img src=&#34;beach-bottle.jpg&#34;
+         alt=&#34;A single-use plastic water bottle on a beach&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;A single-use plastic water bottle on a beach&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
+&lt;p&gt;Huge amounts of litter wash up on along Australian coastlines every day. The most widely used method for monitoring this is visual counting, requiring large teams of peoples. However if we consider the sheer size and accessibility of coastal areas this is overwhelmingly inefficient.&lt;/p&gt;
+&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
+&lt;p&gt;I sought to explore how computer vision technology could can be leveraged to monitor coastal litter. For example, a drone could map a beach to identify the amount and type of litter present. This data could then be fed back to community cleanup groups. Alternatively, someone could take a photo of the plastic they collected on their morning beach stroll. This image could be automatically processed through computer vision for data contributing to a citizen science project.&lt;/p&gt;
+&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
+&lt;p&gt;I scraped 40 images rom Instagram the hashtag #take3forthesea; a community initiative where people collect three pieces of rubbish every time they visit a beach, waterway, or anywhere. I trained my model to recognise two pieces of rubbish.&lt;/p&gt;
 </description>
     </item>
     

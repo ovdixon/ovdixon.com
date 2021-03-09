@@ -16,7 +16,7 @@
 <link rel="icon" type="image/x-icon" href="https://ovdixon.com/favicon.ico">
 <link rel="apple-touch-icon-precomposed" href="https://ovdixon.com/favicon.png">
 
-<link rel="stylesheet" href="https://ovdixon.com/css/light.css?rnd=1607413299" />
+<link rel="stylesheet" href="https://ovdixon.com/css/light.css?rnd=1607647192" />
 <style>
 
     [data-theme="dark"] {   
@@ -48,11 +48,11 @@
 
 </style>
 
-<link rel="stylesheet" href="https://ovdixon.com/css/style.css?rnd=1607413299" />
+<link rel="stylesheet" href="https://ovdixon.com/css/style.css?rnd=1607647192" />
 
-<link rel="stylesheet" href="https://ovdixon.com/css/my.css?rnd=1607413299">
+<link rel="stylesheet" href="https://ovdixon.com/css/my.css?rnd=1607647192">
 
-<script src="https://ovdixon.com/js/main.js?rnd=1607413299" type="text/javascript" charset="utf-8"></script>
+<script src="https://ovdixon.com/js/main.js?rnd=1607647192" type="text/javascript" charset="utf-8"></script>
 
 <meta property="og:title" content="Machine learning for beach litter detection 🏝" />
 <meta property="og:description" content="Training a beach litter detection model using CreateML." />
@@ -107,20 +107,19 @@
             <h1 class="post-title">Machine learning for beach litter detection 🏝</h1>
         </header>
         <div class="content">
-            <h4 id="background">Background</h4>
-<p>Huge amounts of litter wash up along coastlines around the world. Not only is this problem an ugly eyesore, it poses a devastating environmental impact to wildlife, water quality and human health. Currently the most commonly used method for monitoring the litter that washes onto coastlines is boots on the ground visual counting, often involving large teams of peoples. However if we consider the sheer size and accessibility of coastal areas in Australia alone this is overwhelmingly inefficient.</p>
-<p>I sought to explore the feasibility of training a simple machine learning model for object detection of beach litter. A forewarning that this is one of my first ventures into the world of ML so it was very much a learning process for myself included.</p>
-<h4 id="gathering-training-data">Gathering Training Data</h4>
-<p>I collated a set of 40 images of collected coastal litter. Initially, I planned on gathering a much larger dataset. However not only was my laptop underpowered to train a large volume of images without turning into an expensive lap warmer but I also hoped that a small dataset of higher quality images would produce a higher quality model. All images were hand-picked from Google Images</p>
-<h4 id="labeling-images">Labeling Images</h4>
-<p>To be continued&hellip;</p>
+            <h4 id="inspiration">Inspiration</h4>
 <figure>
-    <img src="test.png"
-         alt="Some initial results"/> <figcaption>
-            <p>Some initial results</p>
+    <img src="beach-bottle.jpg"
+         alt="A single-use plastic water bottle on a beach"/> <figcaption>
+            <p>A single-use plastic water bottle on a beach</p>
         </figcaption>
 </figure>
 
+<p>Huge amounts of litter wash up on along Australian coastlines every day. The most widely used method for monitoring this is visual counting, requiring large teams of peoples. However if we consider the sheer size and accessibility of coastal areas this is overwhelmingly inefficient.</p>
+<h4 id="ideation">Ideation</h4>
+<p>I sought to explore how computer vision technology could can be leveraged to monitor coastal litter. For example, a drone could map a beach to identify the amount and type of litter present. This data could then be fed back to community cleanup groups. Alternatively, someone could take a photo of the plastic they collected on their morning beach stroll. This image could be automatically processed through computer vision for data contributing to a citizen science project.</p>
+<h4 id="implementation">Implementation</h4>
+<p>I scraped 40 images rom Instagram the hashtag #take3forthesea; a community initiative where people collect three pieces of rubbish every time they visit a beach, waterway, or anywhere. I trained my model to recognise two pieces of rubbish.</p>
 
         </div>
         

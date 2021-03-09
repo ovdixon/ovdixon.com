@@ -18,7 +18,7 @@ I sought to explore how computer vision technology could can be leveraged to mon
 
 
 #### Implementation
-I scraped 40 images rom Instagram the hashtag #take3forthesea; a community initiative where people collect three pieces of rubbish every time they visit a beach, waterway, or anywhere. I trained my model to recognise two pieces of rubbish.
+I scraped 40 images rom Instagram the hashtag #take3forthesea; a community initiative where people collect three pieces of rubbish every time they visit a beach, waterway, or anywhere. To start with I sought to train my model to recongise plastic bottles, one of the most common marine litter items. I tagged the images using the tool RectLabel and then trained it locally using CreateML.
 
 
 
