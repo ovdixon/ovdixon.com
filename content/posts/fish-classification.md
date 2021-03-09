@@ -20,7 +20,7 @@ Using the command line tool Instaloader I scraped images from public instagram h
 
 
 #### Training on CreateML
-This is Apples no-code computer vision training tool optimised for use with iOS. You simply drag and drop a collection of class folders to begin training. My training data totalled 1,288 over 5 classes. 
+This is Apple's no-code computer vision training tool optimised for use with iOS. You simply drag and drop a collection of class folders to begin training. My training data totalled 1,288 over 5 classes. 
 
 {{< figure src="training.png" caption="Training took a number of hours on my i5 Macbook Air">}}
 

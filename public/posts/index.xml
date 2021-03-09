@@ -17,9 +17,9 @@
       <pubDate>Mon, 07 Dec 2020 14:12:24 +1000</pubDate>
       
       <guid>https://ovdixon.com/posts/fish-classification/</guid>
-      <description>&lt;p&gt;Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman understand are able to recognise different fish species and know size restrictions / bag limits. I thought this application could help new anglers for identifying the fish they catch.&lt;/p&gt;
+      <description>&lt;p&gt;Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.&lt;/p&gt;
 &lt;h4 id=&#34;collecting-images&#34;&gt;Collecting Images&lt;/h4&gt;
-&lt;p&gt;I decided to train a model able to recognise five of the most common recreational fish species caught in NSW; bream, whiting, flathead, luderick and whiting.&lt;/p&gt;
+&lt;p&gt;I decided to train a model able to recognise five of the most common recreational fish species caught along the East Coast of Australia; bream, whiting, flathead, luderick and whiting.&lt;/p&gt;
 &lt;figure&gt;
     &lt;img src=&#34;species.png&#34;
          alt=&#34;Three of the five species&#34;/&gt; &lt;figcaption&gt;
@@ -45,11 +45,11 @@
 &lt;/figure&gt;
 
 &lt;h4 id=&#34;testing&#34;&gt;Testing&lt;/h4&gt;
-&lt;p&gt;I tested the model on 10 unseen images across the classes. Results were suprising, 10/10 accurate classifications.&lt;/p&gt;
+&lt;p&gt;I tested the model on 10 unseen images across the 5 species classes. Results were suprising, 10/10 accurate classifications.&lt;/p&gt;
 &lt;figure&gt;
     &lt;img src=&#34;testing.png&#34;
-         alt=&#34;Accurate even when fish is angled to the camera&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Accurate even when fish is angled to the camera&lt;/p&gt;
+         alt=&#34;Accurate even when the fish is angled to the camera&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Accurate even when the fish is angled to the camera&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
