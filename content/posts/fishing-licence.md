@@ -5,9 +5,11 @@ draft: false
 summary: "Redesigning the experience of purchasing a recreational fishing licence online"
 ---
 
+https://odix8891.github.io/deco-1016-website/
+
 #### Inspiration
 
-The current process of purchasing a recreational fishing licence online in NSW, Australia violates several principles of visual, navigation, and interaction design. 
+The current process of purchasing a recreational fishing licence online in NSW violates several principles of visual, navigation, and interaction design. 
 
 
 #### Ideation
@@ -21,7 +23,7 @@ I sought to develop an alternative web-based (mobile & desktop) onboarding proce
 
 
 #### Implementation
- It was developed from the ground up using HTML, CSS and JS  Several features, including a progress bar and sticky navigation, were designed to give the user a greater sense of control.\\
- I received the following feedback from the marker: "You scoped this project excellently!  Good use of code, only minor mistakes and consistent styling and use of javascript. The website itself was excellently done."\\
+ It was developed from the ground up using HTML, CSS and JS  Several features, including a progress bar and sticky navigation, were designed to give the user a greater sense of control.  
+ I received the following feedback from the marker: "You scoped this project excellently!  Good use of code, only minor mistakes and consistent styling and use of javascript. The website itself was excellently done."  
 
-Check it out: https://odix8891.github.io/deco-1016-website/
+Check it out live at: https://odix8891.github.io/deco-1016-website/
