@@ -2,7 +2,7 @@
 title: "Teaching my iPhone to recognise fish species without a single line of code 🐠"
 date: 2020-12-07T14:12:24+10:00
 draft: false
-summary: "Teaching my iPhone to recognise fish species without a single line of code 🐠"
+summary: "A foray into image classification using CreateML"
 ---
 
 Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman understand are able to recognise different fish species and know size restrictions / bag limits. I thought this application could help new anglers for identifying the fish they catch.
@@ -33,6 +33,6 @@ I tested the model on 10 unseen images across the classes. Results were suprisin
 
 
 #### Deployment
-I deployed the model to my phone using a public project called [MLModelCamera](https://github.com/shu223/MLModelCamera), that allows for Drag-and-Drop testing of Core ML models.
+I deployed the model to my iPhone 12 Pro using a public project called [MLModelCamera](https://github.com/shu223/MLModelCamera). It allows for Drag-and-Drop testing of Core ML models.
 
 {{< figure src="deployment.png" caption="I haven't had a chance to test it live on a fishing trip, will update the post hence.">}}

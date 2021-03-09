@@ -6,18 +6,18 @@
     <description>ovdixon (Posts)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2020 14:12:24 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Dec 2020 14:12:24 +1000</lastBuildDate>
     
     <atom:link href="https://ovdixon.com/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Machine learning for beach litter detection 🏝</title>
+      <title>Teaching my iPhone to recognise fish species without a single line of code 🐠</title>
       <link>https://ovdixon.com/posts/fish-classification/</link>
-      <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
+      <pubDate>Mon, 07 Dec 2020 14:12:24 +1000</pubDate>
       
       <guid>https://ovdixon.com/posts/fish-classification/</guid>
-      <description>&lt;p&gt;Teach my iPhone to recognise fish species without a single line of code. This would be a great tool for new fisherman to learn about fish size restrictions and bag limits.&lt;/p&gt;
+      <description>&lt;p&gt;Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman understand are able to recognise different fish species and know size restrictions / bag limits. I thought this application could help new anglers for identifying the fish they catch.&lt;/p&gt;
 &lt;h4 id=&#34;collecting-images&#34;&gt;Collecting Images&lt;/h4&gt;
 &lt;p&gt;I decided to train a model able to recognise five of the most common recreational fish species caught in NSW; bream, whiting, flathead, luderick and whiting.&lt;/p&gt;
 &lt;figure&gt;
@@ -38,7 +38,7 @@
 &lt;h4 id=&#34;training-on-createml&#34;&gt;Training on CreateML&lt;/h4&gt;
 &lt;p&gt;This is Apples no-code computer vision training tool optimised for use with iOS. You simply drag and drop a collection of class folders to begin training. My training data totalled 1,288 over 5 classes.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;createml.png&#34;
+    &lt;img src=&#34;training.png&#34;
          alt=&#34;Training took a number of hours on my i5 Macbook Air&#34;/&gt; &lt;figcaption&gt;
             &lt;p&gt;Training took a number of hours on my i5 Macbook Air&lt;/p&gt;
         &lt;/figcaption&gt;
@@ -47,34 +47,21 @@
 &lt;h4 id=&#34;testing&#34;&gt;Testing&lt;/h4&gt;
 &lt;p&gt;I tested the model on 10 unseen images across the classes. Results were suprising, 10/10 accurate classifications.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;training.png&#34;
+    &lt;img src=&#34;testing.png&#34;
          alt=&#34;Accurate even when fish is angled to the camera&#34;/&gt; &lt;figcaption&gt;
             &lt;p&gt;Accurate even when fish is angled to the camera&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-</description>
-    </item>
-    
-    <item>
-      <title>Machine learning for beach litter detection 🏝</title>
-      <link>https://ovdixon.com/posts/litter-detection/</link>
-      <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
-      
-      <guid>https://ovdixon.com/posts/litter-detection/</guid>
-      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
+&lt;h4 id=&#34;deployment&#34;&gt;Deployment&lt;/h4&gt;
+&lt;p&gt;I deployed the model to my phone using a public project called &lt;a href=&#34;https://github.com/shu223/MLModelCamera&#34;&gt;MLModelCamera&lt;/a&gt;, that allows for Drag-and-Drop testing of Core ML models.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;beach-bottle.jpg&#34;
-         alt=&#34;A single-use plastic water bottle on a beach&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;A single-use plastic water bottle on a beach&lt;/p&gt;
+    &lt;img src=&#34;deployment.png&#34;
+         alt=&#34;I haven&amp;amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;I haven&amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
-&lt;p&gt;Huge amounts of litter wash up on along Australian coastlines every day. The most widely used method for monitoring this is visual counting, requiring large teams of peoples. However if we consider the sheer size and accessibility of coastal areas this is overwhelmingly inefficient.&lt;/p&gt;
-&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
-&lt;p&gt;I sought to explore how computer vision technology could can be leveraged to monitor coastal litter. For example, a drone could map a beach to identify the amount and type of litter present. This data could then be fed back to community cleanup groups. Alternatively, someone could take a photo of the plastic they collected on their morning beach stroll. This image could be automatically processed through computer vision for data contributing to a citizen science project.&lt;/p&gt;
-&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
-&lt;p&gt;I scraped 40 images rom Instagram the hashtag #take3forthesea; a community initiative where people collect three pieces of rubbish every time they visit a beach, waterway, or anywhere. To start with I sought to train my model to recongise plastic bottles, one of the most common marine litter items. I tagged the images using the tool RectLabel and then trained it locally using CreateML.&lt;/p&gt;
 </description>
     </item>
     

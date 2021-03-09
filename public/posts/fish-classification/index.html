@@ -10,13 +10,13 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="referrer" content="no-referrer-when-downgrade">
 
-<title>Machine learning for beach litter detection 🏝 - ovdixon</title>
+<title>Teaching my iPhone to recognise fish species without a single line of code 🐠 - ovdixon</title>
 <meta name="description" content="">
 
 <link rel="icon" type="image/x-icon" href="https://ovdixon.com/favicon.ico">
 <link rel="apple-touch-icon-precomposed" href="https://ovdixon.com/favicon.png">
 
-<link rel="stylesheet" href="https://ovdixon.com/css/light.css?rnd=1615254206" />
+<link rel="stylesheet" href="https://ovdixon.com/css/light.css?rnd=1615256812" />
 <style>
 
     [data-theme="dark"] {   
@@ -48,25 +48,25 @@
 
 </style>
 
-<link rel="stylesheet" href="https://ovdixon.com/css/style.css?rnd=1615254206" />
+<link rel="stylesheet" href="https://ovdixon.com/css/style.css?rnd=1615256812" />
 
-<link rel="stylesheet" href="https://ovdixon.com/css/my.css?rnd=1615254206">
+<link rel="stylesheet" href="https://ovdixon.com/css/my.css?rnd=1615256812">
 
-<script src="https://ovdixon.com/js/main.js?rnd=1615254206" type="text/javascript" charset="utf-8"></script>
+<script src="https://ovdixon.com/js/main.js?rnd=1615256812" type="text/javascript" charset="utf-8"></script>
 
-<meta property="og:title" content="Machine learning for beach litter detection 🏝" />
-<meta property="og:description" content="Training a beach litter detection model using CreateML." />
+<meta property="og:title" content="Teaching my iPhone to recognise fish species without a single line of code 🐠" />
+<meta property="og:description" content="Teaching my iPhone to recognise fish species without a single line of code 🐠" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://ovdixon.com/posts/fish-classification/" />
 <meta property="og:image" content="https://ovdixon.com/images/og-featured.png"/>
-<meta property="article:published_time" content="2020-04-07T14:12:24+10:00" />
-<meta property="article:modified_time" content="2020-04-07T14:12:24+10:00" />
+<meta property="article:published_time" content="2020-12-07T14:12:24+10:00" />
+<meta property="article:modified_time" content="2020-12-07T14:12:24+10:00" />
 
 <meta name="twitter:card" content="summary_large_image"/>
 <meta name="twitter:image" content="https://ovdixon.com/images/og-featured.png"/>
 
-<meta name="twitter:title" content="Machine learning for beach litter detection 🏝"/>
-<meta name="twitter:description" content="Training a beach litter detection model using CreateML."/>
+<meta name="twitter:title" content="Teaching my iPhone to recognise fish species without a single line of code 🐠"/>
+<meta name="twitter:description" content="Teaching my iPhone to recognise fish species without a single line of code 🐠"/>
 
 
 
@@ -104,10 +104,10 @@
     
     <article class="post">
         <header class="post-header">
-            <h1 class="post-title">Machine learning for beach litter detection 🏝</h1>
+            <h1 class="post-title">Teaching my iPhone to recognise fish species without a single line of code 🐠</h1>
         </header>
         <div class="content">
-            <p>Teach my iPhone to recognise fish species without a single line of code. This would be a great tool for new fisherman to learn about fish size restrictions and bag limits.</p>
+            <p>Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman understand are able to recognise different fish species and know size restrictions / bag limits. I thought this application could help new anglers for identifying the fish they catch.</p>
 <h4 id="collecting-images">Collecting Images</h4>
 <p>I decided to train a model able to recognise five of the most common recreational fish species caught in NSW; bream, whiting, flathead, luderick and whiting.</p>
 <figure>
@@ -128,7 +128,7 @@
 <h4 id="training-on-createml">Training on CreateML</h4>
 <p>This is Apples no-code computer vision training tool optimised for use with iOS. You simply drag and drop a collection of class folders to begin training. My training data totalled 1,288 over 5 classes.</p>
 <figure>
-    <img src="createml.png"
+    <img src="training.png"
          alt="Training took a number of hours on my i5 Macbook Air"/> <figcaption>
             <p>Training took a number of hours on my i5 Macbook Air</p>
         </figcaption>
@@ -137,9 +137,18 @@
 <h4 id="testing">Testing</h4>
 <p>I tested the model on 10 unseen images across the classes. Results were suprising, 10/10 accurate classifications.</p>
 <figure>
-    <img src="training.png"
+    <img src="testing.png"
          alt="Accurate even when fish is angled to the camera"/> <figcaption>
             <p>Accurate even when fish is angled to the camera</p>
+        </figcaption>
+</figure>
+
+<h4 id="deployment">Deployment</h4>
+<p>I deployed the model to my phone using a public project called <a href="https://github.com/shu223/MLModelCamera">MLModelCamera</a>, that allows for Drag-and-Drop testing of Core ML models.</p>
+<figure>
+    <img src="deployment.png"
+         alt="I haven&amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence."/> <figcaption>
+            <p>I haven&rsquo;t had a chance to test it live on a fishing trip, will update the post hence.</p>
         </figcaption>
 </figure>
 
@@ -152,7 +161,7 @@
 
 <div class="post-info">
     
-        <div class="post-date">2020-04-07</div>
+        <div class="post-date">2020-12-07</div>
     
     <div class="post-taxonomies">
         
@@ -170,7 +179,7 @@
         </div>
         <div class="right pagination-item ">
             
-                <a href="/posts/litter-detection/">Machine learning for beach litter detection 🏝</a>
+                <a href="/posts/passport-scanner/">Mobile Passport Scanner 🛂</a>
             
         </div>
     </div>
