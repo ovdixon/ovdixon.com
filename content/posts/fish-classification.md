@@ -5,12 +5,12 @@ draft: false
 summary: "A foray into image classification using CreateML"
 ---
 
-Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman understand are able to recognise different fish species and know size restrictions / bag limits. I thought this application could help new anglers for identifying the fish they catch.
+Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.
 
 
 #### Collecting Images
 
-I decided to train a model able to recognise five of the most common recreational fish species caught in NSW; bream, whiting, flathead, luderick and whiting. 
+I decided to train a model able to recognise five of the most common recreational fish species caught along the East Coast of Australia; bream, whiting, flathead, luderick and whiting. 
 
 {{< figure src="species.png" caption="Three of the five species">}}
 
@@ -27,9 +27,9 @@ This is Apples no-code computer vision training tool optimised for use with iOS.
 
 
 #### Testing
-I tested the model on 10 unseen images across the classes. Results were suprising, 10/10 accurate classifications.
+I tested the model on 10 unseen images across the 5 species classes. Results were suprising, 10/10 accurate classifications.
 
-{{< figure src="testing.png" caption="Accurate even when fish is angled to the camera">}}
+{{< figure src="testing.png" caption="Accurate even when the fish is angled to the camera">}}
 
 
 #### Deployment
