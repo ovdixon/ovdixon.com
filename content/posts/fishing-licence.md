@@ -1,11 +1,10 @@
 ---
 title: "Fishing Licence Onboarding Redesign 🎣"
-date: 2020-12-07T14:12:24+10:00
+date: 2020-07-01T14:12:24+10:00
 draft: false
 summary: "Redesigning the experience of purchasing a recreational fishing licence online"
+tags = ["fishing","html","css","js" ] 
 ---
-
-https://odix8891.github.io/deco-1016-website/
 
 #### Inspiration
 
