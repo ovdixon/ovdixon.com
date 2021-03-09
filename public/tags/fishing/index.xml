@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fishing on ovdixon</title>
+    <link>https://ovdixon.com/tags/fishing/</link>
+    <description>ovdixon (fishing)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Feb 2021 14:12:24 +1000</lastBuildDate>
+    
+    <atom:link href="https://ovdixon.com/tags/fishing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Teaching my iPhone to recognise fish species🐠</title>
+      <link>https://ovdixon.com/posts/fish-classification/</link>
+      <pubDate>Mon, 08 Feb 2021 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/posts/fish-classification/</guid>
+      <description>&lt;p&gt;Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.&lt;/p&gt;
+&lt;h4 id=&#34;collecting-images&#34;&gt;Collecting Images&lt;/h4&gt;
+&lt;p&gt;I decided to train a model able to recognise five of the most common recreational fish species caught along the East Coast of Australia; bream, whiting, flathead, luderick and whiting.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;species.png&#34;
+         alt=&#34;Three of the five species&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Three of the five species&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Using the command line tool Instaloader I scraped images from public instagram hashtags under each species (i.e #sandwhiting)  I scraped 1000+ images for each species, then went through and filtered out the best images totalling a minimum of 250.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;instaloader.png&#34;
+         alt=&#34;Using Instaloader in command line&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Using Instaloader in command line&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;training-on-createml&#34;&gt;Training on CreateML&lt;/h4&gt;
+&lt;p&gt;This is Apple&amp;rsquo;s no-code computer vision training tool optimised for use with iOS. You simply drag and drop a collection of class folders to begin training. My training data totalled 1,288 over 5 classes.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;training.png&#34;
+         alt=&#34;Training took a number of hours on my i5 Macbook Air&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Training took a number of hours on my i5 Macbook Air&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;testing&#34;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;I tested the model on 10 unseen images across the 5 species classes. Results were suprising, 10/10 accurate classifications.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;testing.png&#34;
+         alt=&#34;Accurate even when the fish is angled to the camera&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Accurate even when the fish is angled to the camera&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;deployment&#34;&gt;Deployment&lt;/h4&gt;
+&lt;p&gt;I deployed the model to my iPhone 12 Pro using a public project called &lt;a href=&#34;https://github.com/shu223/MLModelCamera&#34;&gt;MLModelCamera&lt;/a&gt;. It allows for Drag-and-Drop testing of Core ML models.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;deployment.png&#34;
+         alt=&#34;I haven&amp;amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;I haven&amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Fishing Licence Onboarding Redesign 🎣</title>
+      <link>https://ovdixon.com/posts/fishing-licence/</link>
+      <pubDate>Wed, 01 Jul 2020 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/posts/fishing-licence/</guid>
+      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
+&lt;p&gt;The current process of purchasing a recreational fishing licence online in NSW violates several principles of visual, navigation, and interaction design.&lt;/p&gt;
+&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
+&lt;p&gt;I sought to develop an alternative web-based (mobile &amp;amp; desktop) onboarding process for purchasing a fishing licence. I began with some user profiles to understand who would be using the site. Fishing attracts a diverse range of people of all ages. It is important that the licence onboarding be an accessible lightweight experience focused on efficiency.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;sketch.png&#34;
+         alt=&#34;Initial annotated sketches&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Initial annotated sketches&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;wireframe.png&#34;
+         alt=&#34;Next came low fidelity wireframes&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Next came low fidelity wireframes&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;mockup.png&#34;
+         alt=&#34;Finally mockups developed using Adobe XD&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Finally mockups developed using Adobe XD&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
+&lt;p&gt;It was developed from the ground up using HTML, CSS and JS  Several features, including a progress bar and sticky navigation, were designed to give the user a greater sense of control.&lt;br&gt;
+I received the following feedback from the marker: &amp;ldquo;You scoped this project excellently!  Good use of code, only minor mistakes and consistent styling and use of javascript. The website itself was excellently done.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Check it out live at: &lt;a href=&#34;https://odix8891.github.io/deco-1016-website/&#34;&gt;https://odix8891.github.io/deco-1016-website/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

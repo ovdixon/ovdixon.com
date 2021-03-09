@@ -3,23 +3,38 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>https://ovdixon.com/posts/fishing-licence/</loc>
-    <lastmod>2020-12-07T14:12:24+10:00</lastmod>
+    <loc>https://ovdixon.com/tags/computer-vision/</loc>
+    <lastmod>2021-02-08T14:12:24+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ovdixon.com/tags/fishing/</loc>
+    <lastmod>2021-02-08T14:12:24+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ovdixon.com/tags/ios/</loc>
+    <lastmod>2021-02-08T14:12:24+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://ovdixon.com/</loc>
-    <lastmod>2020-12-07T14:12:24+10:00</lastmod>
+    <lastmod>2021-02-08T14:12:24+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://ovdixon.com/posts/</loc>
-    <lastmod>2020-12-07T14:12:24+10:00</lastmod>
+    <lastmod>2021-02-08T14:12:24+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ovdixon.com/tags/</loc>
+    <lastmod>2021-02-08T14:12:24+10:00</lastmod>
   </url>
   
   <url>
     <loc>https://ovdixon.com/posts/fish-classification/</loc>
-    <lastmod>2020-12-07T14:12:24+10:00</lastmod>
+    <lastmod>2021-02-08T14:12:24+10:00</lastmod>
   </url>
   
   <url>
@@ -28,8 +43,38 @@
   </url>
   
   <url>
+    <loc>https://ovdixon.com/tags/css/</loc>
+    <lastmod>2020-07-01T14:12:24+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ovdixon.com/posts/fishing-licence/</loc>
+    <lastmod>2020-07-01T14:12:24+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ovdixon.com/tags/html/</loc>
+    <lastmod>2020-07-01T14:12:24+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ovdixon.com/tags/js/</loc>
+    <lastmod>2020-07-01T14:12:24+10:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://ovdixon.com/posts/passport-scanner/</loc>
     <lastmod>2020-04-07T14:12:24+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ovdixon.com/tags/passport/</loc>
+    <lastmod>2020-04-07T14:12:24+10:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ovdixon.com/tags/art/</loc>
+    <lastmod>2019-03-09T19:22:42+11:00</lastmod>
   </url>
   
   <url>
@@ -38,11 +83,17 @@
   </url>
   
   <url>
-    <loc>https://ovdixon.com/categories/</loc>
+    <loc>https://ovdixon.com/tags/openprocessing/</loc>
+    <lastmod>2019-03-09T19:22:42+11:00</lastmod>
   </url>
   
   <url>
-    <loc>https://ovdixon.com/tags/</loc>
+    <loc>https://ovdixon.com/tags/p5js/</loc>
+    <lastmod>2019-03-09T19:22:42+11:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://ovdixon.com/categories/</loc>
   </url>
   
 </urlset>

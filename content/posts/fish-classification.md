@@ -1,9 +1,9 @@
 ---
-title: "Teaching my iPhone to recognise fish species🐠"
+title: "Teaching my iPhone to recognise fish species 🐠"
 date: 2021-02-08T14:12:24+10:00
 draft: false
 summary: "A foray into image classification using CreateML"
-tags: ["fishing","computer vision","ios" ] 
+tags: ["fishing","computervision","machinelearning","ios" ] 
 ---
 
 Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.

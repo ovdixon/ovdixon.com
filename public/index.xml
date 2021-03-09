@@ -6,54 +6,15 @@
     <description>ovdixon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 07 Dec 2020 14:12:24 +1000</lastBuildDate>
+    <lastBuildDate>Mon, 08 Feb 2021 14:12:24 +1000</lastBuildDate>
     
     <atom:link href="https://ovdixon.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Fishing Licence Onboarding Redesign 🎣</title>
-      <link>https://ovdixon.com/posts/fishing-licence/</link>
-      <pubDate>Mon, 07 Dec 2020 14:12:24 +1000</pubDate>
-      
-      <guid>https://ovdixon.com/posts/fishing-licence/</guid>
-      <description>&lt;p&gt;&lt;a href=&#34;https://odix8891.github.io/deco-1016-website/&#34;&gt;https://odix8891.github.io/deco-1016-website/&lt;/a&gt;&lt;/p&gt;
-&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
-&lt;p&gt;The current process of purchasing a recreational fishing licence online in NSW violates several principles of visual, navigation, and interaction design.&lt;/p&gt;
-&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
-&lt;p&gt;I sought to develop an alternative web-based (mobile &amp;amp; desktop) onboarding process for purchasing a fishing licence. I began with some user profiles to understand who would be using the site. Fishing attracts a diverse range of people of all ages. It is important that the licence onboarding be an accessible lightweight experience focused on efficiency.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;sketch.png&#34;
-         alt=&#34;Initial annotated sketches&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Initial annotated sketches&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;wireframe.png&#34;
-         alt=&#34;Next came low fidelity wireframes&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Next came low fidelity wireframes&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;mockup.png&#34;
-         alt=&#34;Finally mockups developed using Adobe XD&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Finally mockups developed using Adobe XD&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
-&lt;p&gt;It was developed from the ground up using HTML, CSS and JS  Several features, including a progress bar and sticky navigation, were designed to give the user a greater sense of control.&lt;br&gt;
-I received the following feedback from the marker: &amp;ldquo;You scoped this project excellently!  Good use of code, only minor mistakes and consistent styling and use of javascript. The website itself was excellently done.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Check it out live at: &lt;a href=&#34;https://odix8891.github.io/deco-1016-website/&#34;&gt;https://odix8891.github.io/deco-1016-website/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
       <title>Teaching my iPhone to recognise fish species🐠</title>
       <link>https://ovdixon.com/posts/fish-classification/</link>
-      <pubDate>Mon, 07 Dec 2020 14:12:24 +1000</pubDate>
+      <pubDate>Mon, 08 Feb 2021 14:12:24 +1000</pubDate>
       
       <guid>https://ovdixon.com/posts/fish-classification/</guid>
       <description>&lt;p&gt;Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.&lt;/p&gt;
@@ -112,6 +73,44 @@ I received the following feedback from the marker: &amp;ldquo;You scoped this pr
       <guid>https://ovdixon.com/about/</guid>
       <description>&lt;p&gt;I&amp;rsquo;m Ollie Dixon, a full-time Bachelor of Design Computing at the University of Sydney. I enjoy using my skills in UX design and research to tackle complex problems. I created this website to document the little projects that I keep myself busy with!&lt;/p&gt;
 &lt;p&gt;If you have any questions shoot me an email at &lt;a href=&#34;mailto:ovdixon@icloud.com&#34;&gt;ovdixon@icloud.com&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Fishing Licence Onboarding Redesign 🎣</title>
+      <link>https://ovdixon.com/posts/fishing-licence/</link>
+      <pubDate>Wed, 01 Jul 2020 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/posts/fishing-licence/</guid>
+      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
+&lt;p&gt;The current process of purchasing a recreational fishing licence online in NSW violates several principles of visual, navigation, and interaction design.&lt;/p&gt;
+&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
+&lt;p&gt;I sought to develop an alternative web-based (mobile &amp;amp; desktop) onboarding process for purchasing a fishing licence. I began with some user profiles to understand who would be using the site. Fishing attracts a diverse range of people of all ages. It is important that the licence onboarding be an accessible lightweight experience focused on efficiency.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;sketch.png&#34;
+         alt=&#34;Initial annotated sketches&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Initial annotated sketches&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;wireframe.png&#34;
+         alt=&#34;Next came low fidelity wireframes&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Next came low fidelity wireframes&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;mockup.png&#34;
+         alt=&#34;Finally mockups developed using Adobe XD&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Finally mockups developed using Adobe XD&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
+&lt;p&gt;It was developed from the ground up using HTML, CSS and JS  Several features, including a progress bar and sticky navigation, were designed to give the user a greater sense of control.&lt;br&gt;
+I received the following feedback from the marker: &amp;ldquo;You scoped this project excellently!  Good use of code, only minor mistakes and consistent styling and use of javascript. The website itself was excellently done.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Check it out live at: &lt;a href=&#34;https://odix8891.github.io/deco-1016-website/&#34;&gt;https://odix8891.github.io/deco-1016-website/&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     

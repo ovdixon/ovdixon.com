@@ -10,8 +10,8 @@ enableRobotsTXT: true
 menu:
   main:
   - identifier: archive
-    name: Archive
-    title: Archive
+    name: Posts
+    title: Posts
     url: /posts/
     weight: 0
   - identifier: about
