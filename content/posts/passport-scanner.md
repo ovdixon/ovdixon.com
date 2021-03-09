@@ -3,7 +3,7 @@ title: "Mobile Passport Scanner 🛂"
 date: 2020-04-07T14:12:24+10:00
 draft: false
 summary: "An iOS app for scanning the Machine Readable Zone (MRZ) from a passport."
-tags = ["passport","computer vision","ios"] 
+tags: ["passport","computer vision","ios"] 
 ---
 
 #### Problem

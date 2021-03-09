@@ -3,7 +3,7 @@ title: "Generative Art 🖼"
 date: 2019-03-09T19:22:42+11:00
 draft: false
 summary: "An exploration into computer generated art."
-tags = ["art","p5js","openprocessing" ] 
+tags: ["art","p5js","openprocessing" ] 
 ---
 
 Computational systems allow for the realization and expression of ideas that are impossible in other media, or in reality. In such a way, generative computer art is a medium of expression beyond the realm of conventional art, one in which difference can be created within indifference. As part of a university course I took in Design Programming I was required to submit a design inspired by an historical example of computer art.
