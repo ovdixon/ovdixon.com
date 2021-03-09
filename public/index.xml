@@ -24,6 +24,51 @@
     
     <item>
       <title>Machine learning for beach litter detection 🏝</title>
+      <link>https://ovdixon.com/posts/fish-classification/</link>
+      <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/posts/fish-classification/</guid>
+      <description>&lt;p&gt;Teach my iPhone to recognise fish species without a single line of code. This would be a great tool for new fisherman to learn about fish size restrictions and bag limits.&lt;/p&gt;
+&lt;h4 id=&#34;collecting-images&#34;&gt;Collecting Images&lt;/h4&gt;
+&lt;p&gt;I decided to train a model able to recognise five of the most common recreational fish species caught in NSW; bream, whiting, flathead, luderick and whiting.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;species.png&#34;
+         alt=&#34;Three of the five species&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Three of the five species&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Using the command line tool Instaloader I scraped images from public instagram hashtags under each species (i.e #sandwhiting)  I scraped 1000+ images for each species, then went through and filtered out the best images totalling a minimum of 250.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;instaloader.png&#34;
+         alt=&#34;Using Instaloader in command line&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Using Instaloader in command line&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;training-on-createml&#34;&gt;Training on CreateML&lt;/h4&gt;
+&lt;p&gt;This is Apples no-code computer vision training tool optimised for use with iOS. You simply drag and drop a collection of class folders to begin training. My training data totalled 1,288 over 5 classes.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;createml.png&#34;
+         alt=&#34;Training took a number of hours on my i5 Macbook Air&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Training took a number of hours on my i5 Macbook Air&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;testing&#34;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;I tested the model on 10 unseen images across the classes. Results were suprising, 10/10 accurate classifications.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;training.png&#34;
+         alt=&#34;Accurate even when fish is angled to the camera&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Accurate even when fish is angled to the camera&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Machine learning for beach litter detection 🏝</title>
       <link>https://ovdixon.com/posts/litter-detection/</link>
       <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
       
@@ -40,7 +85,7 @@
 &lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
 &lt;p&gt;I sought to explore how computer vision technology could can be leveraged to monitor coastal litter. For example, a drone could map a beach to identify the amount and type of litter present. This data could then be fed back to community cleanup groups. Alternatively, someone could take a photo of the plastic they collected on their morning beach stroll. This image could be automatically processed through computer vision for data contributing to a citizen science project.&lt;/p&gt;
 &lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
-&lt;p&gt;I scraped 40 images rom Instagram the hashtag #take3forthesea; a community initiative where people collect three pieces of rubbish every time they visit a beach, waterway, or anywhere. I trained my model to recognise two pieces of rubbish.&lt;/p&gt;
+&lt;p&gt;I scraped 40 images rom Instagram the hashtag #take3forthesea; a community initiative where people collect three pieces of rubbish every time they visit a beach, waterway, or anywhere. To start with I sought to train my model to recongise plastic bottles, one of the most common marine litter items. I tagged the images using the tool RectLabel and then trained it locally using CreateML.&lt;/p&gt;
 </description>
     </item>
     
