@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>fishing on ovdixon</title>
-    <link>https://ovdixon.com/tags/fishing/</link>
-    <description>ovdixon (fishing)</description>
+    <title>computervision on ovdixon</title>
+    <link>https://ovdixon.com/tags/computervision/</link>
+    <description>ovdixon (computervision)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 08 Feb 2021 14:12:24 +1000</lastBuildDate>
     
-    <atom:link href="https://ovdixon.com/tags/fishing/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ovdixon.com/tags/computervision/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -66,40 +66,33 @@
     </item>
     
     <item>
-      <title>Fishing Licence Onboarding Redesign 🎣</title>
-      <link>https://ovdixon.com/posts/fishing-licence/</link>
-      <pubDate>Wed, 01 Jul 2020 14:12:24 +1000</pubDate>
+      <title>Mobile Passport Scanner 🛂</title>
+      <link>https://ovdixon.com/posts/passport-scanner/</link>
+      <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
       
-      <guid>https://ovdixon.com/posts/fishing-licence/</guid>
-      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
-&lt;p&gt;The current process of purchasing a recreational fishing licence online in NSW violates several principles of visual, navigation, and interaction design.&lt;/p&gt;
+      <guid>https://ovdixon.com/posts/passport-scanner/</guid>
+      <description>&lt;h4 id=&#34;problem&#34;&gt;Problem&lt;/h4&gt;
+&lt;p&gt;In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.&lt;/p&gt;
 &lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
-&lt;p&gt;I sought to develop an alternative web-based (mobile &amp;amp; desktop) onboarding process for purchasing a fishing licence. I began with some user profiles to understand who would be using the site. Fishing attracts a diverse range of people of all ages. It is important that the licence onboarding be an accessible lightweight experience focused on efficiency.&lt;/p&gt;
+&lt;p&gt;A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.&lt;/p&gt;
 &lt;figure&gt;
-    &lt;img src=&#34;sketch.png&#34;
-         alt=&#34;Initial annotated sketches&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Initial annotated sketches&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;wireframe.png&#34;
-         alt=&#34;Next came low fidelity wireframes&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Next came low fidelity wireframes&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;mockup.png&#34;
-         alt=&#34;Finally mockups developed using Adobe XD&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Finally mockups developed using Adobe XD&lt;/p&gt;
+    &lt;img src=&#34;ideation.png&#34;
+         alt=&#34;Simple wireframe sketch (left) served as a template for designing the storyboard (right)&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Simple wireframe sketch (left) served as a template for designing the storyboard (right)&lt;/p&gt;
         &lt;/figcaption&gt;
 &lt;/figure&gt;
 
 &lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
-&lt;p&gt;It was developed from the ground up using HTML, CSS and JS  Several features, including a progress bar and sticky navigation, were designed to give the user a greater sense of control.&lt;br&gt;
-I received the following feedback from the marker: &amp;ldquo;You scoped this project excellently!  Good use of code, only minor mistakes and consistent styling and use of javascript. The website itself was excellently done.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Check it out live at: &lt;a href=&#34;https://odix8891.github.io/deco-1016-website/&#34;&gt;https://odix8891.github.io/deco-1016-website/&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;The app was developed for iOS using Xcode. An image of the passport is captured using the system document scanner, VisionKit. The scanned image is then processed using the VNRecognizeTextRequest class, an image analysis request that finds and recognises the the machine readable zone (MRZ) at the bottom of the passport. The MRZ lines are then parsed using third-party &lt;a href=&#34;https://github.com/Mattijah/QKMRZParser&#34;&gt;QKMRZParser&lt;/a&gt; framework to extract the name, passport number, nationality, date of birth, sex, and passport expiration date.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;demo.gif&#34;
+         alt=&#34;Demo of scanning a passport into the app (running on iPad Pro 11)&#34; width=&#34;90%&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Demo of scanning a passport into the app (running on iPad Pro 11)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;challenges&#34;&gt;Challenges&lt;/h4&gt;
+&lt;p&gt;This was my first iOS project so I had some difficulty with Xcode but overall enjoyed the experience of coding in Swift. Because the app  processes sensitive passport information, I had to consider data privacy and protection. All data processed is stored locally on device, however the app would benefit from adding password protection. The app should adhere to GDRP laws as there is a legal basis for providing passport data to immigration services.&lt;/p&gt;
 </description>
     </item>
     
