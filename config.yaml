@@ -3,8 +3,10 @@ baseUrl: "https://ovdixon.com"
 title: "ovdixon"
 theme: "anubis"
 paginate: 10
+env: production
 googleAnalytics: G-19YEDHDYJC
 enableRobotsTXT: true
+
 
 menu:
   main:
