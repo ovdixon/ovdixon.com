@@ -3,8 +3,7 @@ baseUrl: "https://ovdixon.com"
 title: "ovdixon"
 theme: "anubis"
 paginate: 10
-#disqusShortname: yourdiscussshortname
-googleAnalyticsgoogleAnalytics: G-JR1CLWZDYX
+googleAnalytics: G-JR1CLWZDYX
 enableRobotsTXT: true
 
 menu:
