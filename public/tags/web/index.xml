@@ -1,67 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>web on ovdixon</title>
-    <link>https://ovdixon.com/tags/web/</link>
-    <description>ovdixon (web)</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 07 Oct 2020 14:12:24 +1000</lastBuildDate>
-    
-    <atom:link href="https://ovdixon.com/tags/web/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Tackling COVID-19 Misinformation through Design 🔎 </title>
-      <link>https://ovdixon.com/posts/community-coping/</link>
-      <pubDate>Wed, 07 Oct 2020 14:12:24 +1000</pubDate>
-      
-      <guid>https://ovdixon.com/posts/community-coping/</guid>
-      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;echo.jpg&#34;
-         alt=&#34;Christophe Vorlet @nytimes&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Christophe Vorlet @nytimes&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;This was a group project completed as part of an Interactive Product Design Studio. The focus area was Tackling COVID-19 Misinformation through Design. Rather than trying to censor misinformation  we reframed the brief; how could we improve the capacity of communities to cope with the socio-emotional impacts of such information.&lt;/p&gt;
-&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
-&lt;p&gt;Below is a (very) high-level summary of our design process:&lt;/p&gt;
-&lt;ol&gt;
-&lt;li&gt;Ideated several concepts&lt;/li&gt;
-&lt;li&gt;Collected user feedback&lt;/li&gt;
-&lt;li&gt;Iterated and refined to a single concept&lt;/li&gt;
-&lt;li&gt;Usability testing&lt;/li&gt;
-&lt;li&gt;High-fidelity prototype&lt;/li&gt;
-&lt;/ol&gt;
-&lt;p&gt;The chosen concept was a &lt;em&gt;community-based platform that facilitates users in sharing strategies to cope with the impacts of COVID-19 misinformation and mandated lockdowns&lt;/em&gt;.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;feedback.jpg&#34;
-         alt=&#34;Concept feedback session over Zoom&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Concept feedback session over Zoom&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;xd.jpg&#34;
-         alt=&#34;Interactive protoype in Adobe XD&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Interactive protoype in Adobe XD&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
-&lt;p&gt;The web application was developed as a mobile-first static website. It is more a proof of concept with the opportunity to develop the greater functionality in the future.&lt;/p&gt;
-&lt;p&gt;Check the app out live &lt;a href=&#34;https://community-coping-3200.glitch.me&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;glitch.jpg&#34;
-         alt=&#34;The app is hosted on Glitch.&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;The app is hosted on &lt;a href=&#34;https://glitch.com&#34;&gt;Glitch&lt;/a&gt;.&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>web on ovdixon</title><link>https://ovdixon.com/tags/web/</link><description>ovdixon (web)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 07 Oct 2020 14:12:24 +1000</lastBuildDate><atom:link href="https://ovdixon.com/tags/web/index.xml" rel="self" type="application/rss+xml"/><item><title>Tackling COVID-19 Misinformation through Design 🔎</title><link>https://ovdixon.com/posts/community-coping/</link><pubDate>Wed, 07 Oct 2020 14:12:24 +1000</pubDate><guid>https://ovdixon.com/posts/community-coping/</guid><description>&lt;h4 id="inspiration">Inspiration&lt;/h4>
+&lt;figure>
+&lt;img src="echo.jpg"
+alt="Christophe Vorlet @nytimes"/> &lt;figcaption>
+&lt;p>Christophe Vorlet @nytimes&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>This was a group project completed as part of an Interactive Product Design Studio. The focus area was Tackling COVID-19 Misinformation through Design. Rather than trying to censor misinformation we reframed the brief; how could we improve the capacity of communities to cope with the socio-emotional impacts of such information.&lt;/p>
+&lt;h4 id="ideation">Ideation&lt;/h4>
+&lt;p>Below is a (very) high-level summary of our design process:&lt;/p>
+&lt;ol>
+&lt;li>Ideated several concepts&lt;/li>
+&lt;li>Collected user feedback&lt;/li>
+&lt;li>Iterated and refined to a single concept&lt;/li>
+&lt;li>Usability testing&lt;/li>
+&lt;li>High-fidelity prototype&lt;/li>
+&lt;/ol>
+&lt;p>The chosen concept was a &lt;em>community-based platform that facilitates users in sharing strategies to cope with the impacts of COVID-19 misinformation and mandated lockdowns&lt;/em>.&lt;/p>
+&lt;figure>
+&lt;img src="feedback.jpg"
+alt="Concept feedback session over Zoom"/> &lt;figcaption>
+&lt;p>Concept feedback session over Zoom&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="xd.jpg"
+alt="Interactive protoype in Adobe XD"/> &lt;figcaption>
+&lt;p>Interactive protoype in Adobe XD&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4 id="implementation">Implementation&lt;/h4>
+&lt;p>The web application was developed as a mobile-first static website. It is more a proof of concept with the opportunity to develop the greater functionality in the future.&lt;/p>
+&lt;p>Check the app out live &lt;a href="https://community-coping-3200.glitch.me">here&lt;/a>.&lt;/p>
+&lt;figure>
+&lt;img src="glitch.jpg"
+alt="The app is hosted on Glitch."/> &lt;figcaption>
+&lt;p>The app is hosted on &lt;a href="https://glitch.com">Glitch&lt;/a>.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item></channel></rss>

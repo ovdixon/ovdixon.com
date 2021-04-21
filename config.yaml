@@ -4,7 +4,7 @@ title: "ovdixon"
 theme: "anubis"
 paginate: 10
 env: production
-googleAnalytics: G-19YEDHDYJC
+googleAnalyticsID: G-19YEDHDYJC
 enableRobotsTXT: true
 
 

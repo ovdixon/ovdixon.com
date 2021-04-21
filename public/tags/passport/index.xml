@@ -1,46 +1,20 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>passport on ovdixon</title>
-    <link>https://ovdixon.com/tags/passport/</link>
-    <description>ovdixon (passport)</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Tue, 07 Apr 2020 14:12:24 +1000</lastBuildDate>
-    
-    <atom:link href="https://ovdixon.com/tags/passport/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Mobile Passport Scanner 🛂</title>
-      <link>https://ovdixon.com/posts/passport-scanner/</link>
-      <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
-      
-      <guid>https://ovdixon.com/posts/passport-scanner/</guid>
-      <description>&lt;h4 id=&#34;problem&#34;&gt;Problem&lt;/h4&gt;
-&lt;p&gt;In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.&lt;/p&gt;
-&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
-&lt;p&gt;A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;ideation.png&#34;
-         alt=&#34;Simple wireframe sketch (left) served as a template for designing the storyboard (right)&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Simple wireframe sketch (left) served as a template for designing the storyboard (right)&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
-&lt;p&gt;The app was developed for iOS using Xcode. An image of the passport is captured using the system document scanner, VisionKit. The scanned image is then processed using the VNRecognizeTextRequest class, an image analysis request that finds and recognises the the machine readable zone (MRZ) at the bottom of the passport. The MRZ lines are then parsed using third-party &lt;a href=&#34;https://github.com/Mattijah/QKMRZParser&#34;&gt;QKMRZParser&lt;/a&gt; framework to extract the name, passport number, nationality, date of birth, sex, and passport expiration date.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;demo.gif&#34;
-         alt=&#34;Demo of scanning a passport into the app (running on iPad Pro 11)&#34; width=&#34;90%&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Demo of scanning a passport into the app (running on iPad Pro 11)&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;challenges&#34;&gt;Challenges&lt;/h4&gt;
-&lt;p&gt;This was my first iOS project so I had some difficulty with Xcode but overall enjoyed the experience of coding in Swift. Because the app  processes sensitive passport information, I had to consider data privacy and protection. All data processed is stored locally on device, however the app would benefit from adding password protection. The app should adhere to GDRP laws as there is a legal basis for providing passport data to immigration services.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>passport on ovdixon</title><link>https://ovdixon.com/tags/passport/</link><description>ovdixon (passport)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Tue, 07 Apr 2020 14:12:24 +1000</lastBuildDate><atom:link href="https://ovdixon.com/tags/passport/index.xml" rel="self" type="application/rss+xml"/><item><title>Mobile Passport Scanner 🛂</title><link>https://ovdixon.com/posts/passport-scanner/</link><pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate><guid>https://ovdixon.com/posts/passport-scanner/</guid><description>&lt;h4 id="problem">Problem&lt;/h4>
+&lt;p>In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.&lt;/p>
+&lt;h4 id="ideation">Ideation&lt;/h4>
+&lt;p>A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.&lt;/p>
+&lt;figure>
+&lt;img src="ideation.png"
+alt="Simple wireframe sketch (left) served as a template for designing the storyboard (right)"/> &lt;figcaption>
+&lt;p>Simple wireframe sketch (left) served as a template for designing the storyboard (right)&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4 id="implementation">Implementation&lt;/h4>
+&lt;p>The app was developed for iOS using Xcode. An image of the passport is captured using the system document scanner, VisionKit. The scanned image is then processed using the VNRecognizeTextRequest class, an image analysis request that finds and recognises the the machine readable zone (MRZ) at the bottom of the passport. The MRZ lines are then parsed using third-party &lt;a href="https://github.com/Mattijah/QKMRZParser">QKMRZParser&lt;/a> framework to extract the name, passport number, nationality, date of birth, sex, and passport expiration date.&lt;/p>
+&lt;figure>
+&lt;img src="demo.gif"
+alt="Demo of scanning a passport into the app (running on iPad Pro 11)" width="90%"/> &lt;figcaption>
+&lt;p>Demo of scanning a passport into the app (running on iPad Pro 11)&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4 id="challenges">Challenges&lt;/h4>
+&lt;p>This was my first iOS project so I had some difficulty with Xcode but overall enjoyed the experience of coding in Swift. Because the app processes sensitive passport information, I had to consider data privacy and protection. All data processed is stored locally on device, however the app would benefit from adding password protection. The app should adhere to GDRP laws as there is a legal basis for providing passport data to immigration services.&lt;/p></description></item></channel></rss>

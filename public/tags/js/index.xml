@@ -1,53 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>js on ovdixon</title>
-    <link>https://ovdixon.com/tags/js/</link>
-    <description>ovdixon (js)</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Wed, 01 Jul 2020 14:12:24 +1000</lastBuildDate>
-    
-    <atom:link href="https://ovdixon.com/tags/js/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Fishing Licence Onboarding Redesign 🎣</title>
-      <link>https://ovdixon.com/posts/fishing-licence/</link>
-      <pubDate>Wed, 01 Jul 2020 14:12:24 +1000</pubDate>
-      
-      <guid>https://ovdixon.com/posts/fishing-licence/</guid>
-      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
-&lt;p&gt;The current process of purchasing a recreational fishing licence online in NSW violates several principles of visual, navigation, and interaction design.&lt;/p&gt;
-&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
-&lt;p&gt;I sought to develop an alternative web-based (mobile &amp;amp; desktop) onboarding process for purchasing a fishing licence. I began with some user profiles to understand who would be using the site. Fishing attracts a diverse range of people of all ages. It is important that the licence onboarding be an accessible lightweight experience focused on efficiency.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;sketch.png&#34;
-         alt=&#34;Initial annotated sketches&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Initial annotated sketches&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;wireframe.png&#34;
-         alt=&#34;Next came low fidelity wireframes&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Next came low fidelity wireframes&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;figure&gt;
-    &lt;img src=&#34;mockup.png&#34;
-         alt=&#34;Finally mockups developed using Adobe XD&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Finally mockups developed using Adobe XD&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
-&lt;p&gt;It was developed from the ground up using HTML, CSS and JS  Several features, including a progress bar and sticky navigation, were designed to give the user a greater sense of control.&lt;br&gt;
-I received the following feedback from the marker: &amp;ldquo;You scoped this project excellently!  Good use of code, only minor mistakes and consistent styling and use of javascript. The website itself was excellently done.&amp;rdquo;&lt;/p&gt;
-&lt;p&gt;Check it out live at: &lt;a href=&#34;https://odix8891.github.io/deco-1016-website/&#34;&gt;https://odix8891.github.io/deco-1016-website/&lt;/a&gt;&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>js on ovdixon</title><link>https://ovdixon.com/tags/js/</link><description>ovdixon (js)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Wed, 01 Jul 2020 14:12:24 +1000</lastBuildDate><atom:link href="https://ovdixon.com/tags/js/index.xml" rel="self" type="application/rss+xml"/><item><title>Fishing Licence Onboarding Redesign 🎣</title><link>https://ovdixon.com/posts/fishing-licence/</link><pubDate>Wed, 01 Jul 2020 14:12:24 +1000</pubDate><guid>https://ovdixon.com/posts/fishing-licence/</guid><description>&lt;h4 id="inspiration">Inspiration&lt;/h4>
+&lt;p>The current process of purchasing a recreational fishing licence online in NSW violates several principles of visual, navigation, and interaction design.&lt;/p>
+&lt;h4 id="ideation">Ideation&lt;/h4>
+&lt;p>I sought to develop an alternative web-based (mobile &amp;amp; desktop) onboarding process for purchasing a fishing licence. I began with some user profiles to understand who would be using the site. Fishing attracts a diverse range of people of all ages. It is important that the licence onboarding be an accessible lightweight experience focused on efficiency.&lt;/p>
+&lt;figure>
+&lt;img src="sketch.png"
+alt="Initial annotated sketches"/> &lt;figcaption>
+&lt;p>Initial annotated sketches&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="wireframe.png"
+alt="Next came low fidelity wireframes"/> &lt;figcaption>
+&lt;p>Next came low fidelity wireframes&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;figure>
+&lt;img src="mockup.png"
+alt="Finally mockups developed using Adobe XD"/> &lt;figcaption>
+&lt;p>Finally mockups developed using Adobe XD&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4 id="implementation">Implementation&lt;/h4>
+&lt;p>It was developed from the ground up using HTML, CSS and JS Several features, including a progress bar and sticky navigation, were designed to give the user a greater sense of control.&lt;br>
+I received the following feedback from the marker: &amp;ldquo;You scoped this project excellently! Good use of code, only minor mistakes and consistent styling and use of javascript. The website itself was excellently done.&amp;rdquo;&lt;/p>
+&lt;p>Check it out live at: &lt;a href="https://odix8891.github.io/deco-1016-website/">https://odix8891.github.io/deco-1016-website/&lt;/a>&lt;/p></description></item></channel></rss>

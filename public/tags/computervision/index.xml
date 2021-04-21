@@ -1,100 +1,59 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>computervision on ovdixon</title>
-    <link>https://ovdixon.com/tags/computervision/</link>
-    <description>ovdixon (computervision)</description>
-    <generator>Hugo -- gohugo.io</generator>
-    <language>en-us</language>
-    <lastBuildDate>Mon, 08 Feb 2021 14:12:24 +1000</lastBuildDate>
-    
-    <atom:link href="https://ovdixon.com/tags/computervision/index.xml" rel="self" type="application/rss+xml" />
-    
-    
-    <item>
-      <title>Teaching my iPhone to recognise fish species 🐠</title>
-      <link>https://ovdixon.com/posts/fish-classification/</link>
-      <pubDate>Mon, 08 Feb 2021 14:12:24 +1000</pubDate>
-      
-      <guid>https://ovdixon.com/posts/fish-classification/</guid>
-      <description>&lt;p&gt;Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.&lt;/p&gt;
-&lt;h4 id=&#34;collecting-images&#34;&gt;Collecting Images&lt;/h4&gt;
-&lt;p&gt;I decided to train a model able to recognise five of the most common recreational fish species caught along the East Coast of Australia; bream, whiting, flathead, luderick and whiting.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;species.png&#34;
-         alt=&#34;Three of the five species&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Three of the five species&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;p&gt;Using the command line tool Instaloader I scraped images from public instagram hashtags under each species (i.e #sandwhiting)  I scraped 1000+ images for each species, then went through and filtered out the best images totalling a minimum of 250.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;instaloader.png&#34;
-         alt=&#34;Using Instaloader in command line&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Using Instaloader in command line&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;training-on-createml&#34;&gt;Training on CreateML&lt;/h4&gt;
-&lt;p&gt;This is Apple&amp;rsquo;s no-code computer vision training tool optimised for use with iOS. You simply drag and drop a collection of class folders to begin training. My training data totalled 1,288 over 5 classes.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;training.png&#34;
-         alt=&#34;Training took a number of hours on my i5 Macbook Air&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Training took a number of hours on my i5 Macbook Air&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;testing&#34;&gt;Testing&lt;/h4&gt;
-&lt;p&gt;I tested the model on 10 unseen images across the 5 species classes. Results were suprising, 10/10 accurate classifications.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;testing.png&#34;
-         alt=&#34;Accurate even when the fish is angled to the camera&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Accurate even when the fish is angled to the camera&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;deployment&#34;&gt;Deployment&lt;/h4&gt;
-&lt;p&gt;I deployed the model to my iPhone 12 Pro using a public project called &lt;a href=&#34;https://github.com/shu223/MLModelCamera&#34;&gt;MLModelCamera&lt;/a&gt;. It allows for Drag-and-Drop testing of Core ML models.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;deployment.png&#34;
-         alt=&#34;I haven&amp;amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;I haven&amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-</description>
-    </item>
-    
-    <item>
-      <title>Mobile Passport Scanner 🛂</title>
-      <link>https://ovdixon.com/posts/passport-scanner/</link>
-      <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
-      
-      <guid>https://ovdixon.com/posts/passport-scanner/</guid>
-      <description>&lt;h4 id=&#34;problem&#34;&gt;Problem&lt;/h4&gt;
-&lt;p&gt;In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.&lt;/p&gt;
-&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
-&lt;p&gt;A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;ideation.png&#34;
-         alt=&#34;Simple wireframe sketch (left) served as a template for designing the storyboard (right)&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Simple wireframe sketch (left) served as a template for designing the storyboard (right)&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
-&lt;p&gt;The app was developed for iOS using Xcode. An image of the passport is captured using the system document scanner, VisionKit. The scanned image is then processed using the VNRecognizeTextRequest class, an image analysis request that finds and recognises the the machine readable zone (MRZ) at the bottom of the passport. The MRZ lines are then parsed using third-party &lt;a href=&#34;https://github.com/Mattijah/QKMRZParser&#34;&gt;QKMRZParser&lt;/a&gt; framework to extract the name, passport number, nationality, date of birth, sex, and passport expiration date.&lt;/p&gt;
-&lt;figure&gt;
-    &lt;img src=&#34;demo.gif&#34;
-         alt=&#34;Demo of scanning a passport into the app (running on iPad Pro 11)&#34; width=&#34;90%&#34;/&gt; &lt;figcaption&gt;
-            &lt;p&gt;Demo of scanning a passport into the app (running on iPad Pro 11)&lt;/p&gt;
-        &lt;/figcaption&gt;
-&lt;/figure&gt;
-
-&lt;h4 id=&#34;challenges&#34;&gt;Challenges&lt;/h4&gt;
-&lt;p&gt;This was my first iOS project so I had some difficulty with Xcode but overall enjoyed the experience of coding in Swift. Because the app  processes sensitive passport information, I had to consider data privacy and protection. All data processed is stored locally on device, however the app would benefit from adding password protection. The app should adhere to GDRP laws as there is a legal basis for providing passport data to immigration services.&lt;/p&gt;
-</description>
-    </item>
-    
-  </channel>
-</rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>computervision on ovdixon</title><link>https://ovdixon.com/tags/computervision/</link><description>ovdixon (computervision)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 08 Feb 2021 14:12:24 +1000</lastBuildDate><atom:link href="https://ovdixon.com/tags/computervision/index.xml" rel="self" type="application/rss+xml"/><item><title>Teaching my iPhone to recognise fish species 🐠</title><link>https://ovdixon.com/posts/fish-classification/</link><pubDate>Mon, 08 Feb 2021 14:12:24 +1000</pubDate><guid>https://ovdixon.com/posts/fish-classification/</guid><description>&lt;p>Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.&lt;/p>
+&lt;h4 id="collecting-images">Collecting Images&lt;/h4>
+&lt;p>I decided to train a model able to recognise five of the most common recreational fish species caught along the East Coast of Australia; bream, whiting, flathead, luderick and whiting.&lt;/p>
+&lt;figure>
+&lt;img src="species.png"
+alt="Three of the five species"/> &lt;figcaption>
+&lt;p>Three of the five species&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>Using the command line tool Instaloader I scraped images from public instagram hashtags under each species (i.e #sandwhiting) I scraped 1000+ images for each species, then went through and filtered out the best images totalling a minimum of 250.&lt;/p>
+&lt;figure>
+&lt;img src="instaloader.png"
+alt="Using Instaloader in command line"/> &lt;figcaption>
+&lt;p>Using Instaloader in command line&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4 id="training-on-createml">Training on CreateML&lt;/h4>
+&lt;p>This is Apple&amp;rsquo;s no-code computer vision training tool optimised for use with iOS. You simply drag and drop a collection of class folders to begin training. My training data totalled 1,288 over 5 classes.&lt;/p>
+&lt;figure>
+&lt;img src="training.png"
+alt="Training took a number of hours on my i5 Macbook Air"/> &lt;figcaption>
+&lt;p>Training took a number of hours on my i5 Macbook Air&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4 id="testing">Testing&lt;/h4>
+&lt;p>I tested the model on 10 unseen images across the 5 species classes. Results were suprising, 10/10 accurate classifications.&lt;/p>
+&lt;figure>
+&lt;img src="testing.png"
+alt="Accurate even when the fish is angled to the camera"/> &lt;figcaption>
+&lt;p>Accurate even when the fish is angled to the camera&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4 id="deployment">Deployment&lt;/h4>
+&lt;p>I deployed the model to my iPhone 12 Pro using a public project called &lt;a href="https://github.com/shu223/MLModelCamera">MLModelCamera&lt;/a>. It allows for Drag-and-Drop testing of Core ML models.&lt;/p>
+&lt;figure>
+&lt;img src="deployment.png"
+alt="I haven&amp;amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence."/> &lt;figcaption>
+&lt;p>I haven&amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&lt;/p>
+&lt;/figcaption>
+&lt;/figure></description></item><item><title>Mobile Passport Scanner 🛂</title><link>https://ovdixon.com/posts/passport-scanner/</link><pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate><guid>https://ovdixon.com/posts/passport-scanner/</guid><description>&lt;h4 id="problem">Problem&lt;/h4>
+&lt;p>In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.&lt;/p>
+&lt;h4 id="ideation">Ideation&lt;/h4>
+&lt;p>A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.&lt;/p>
+&lt;figure>
+&lt;img src="ideation.png"
+alt="Simple wireframe sketch (left) served as a template for designing the storyboard (right)"/> &lt;figcaption>
+&lt;p>Simple wireframe sketch (left) served as a template for designing the storyboard (right)&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4 id="implementation">Implementation&lt;/h4>
+&lt;p>The app was developed for iOS using Xcode. An image of the passport is captured using the system document scanner, VisionKit. The scanned image is then processed using the VNRecognizeTextRequest class, an image analysis request that finds and recognises the the machine readable zone (MRZ) at the bottom of the passport. The MRZ lines are then parsed using third-party &lt;a href="https://github.com/Mattijah/QKMRZParser">QKMRZParser&lt;/a> framework to extract the name, passport number, nationality, date of birth, sex, and passport expiration date.&lt;/p>
+&lt;figure>
+&lt;img src="demo.gif"
+alt="Demo of scanning a passport into the app (running on iPad Pro 11)" width="90%"/> &lt;figcaption>
+&lt;p>Demo of scanning a passport into the app (running on iPad Pro 11)&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;h4 id="challenges">Challenges&lt;/h4>
+&lt;p>This was my first iOS project so I had some difficulty with Xcode but overall enjoyed the experience of coding in Swift. Because the app processes sensitive passport information, I had to consider data privacy and protection. All data processed is stored locally on device, however the app would benefit from adding password protection. The app should adhere to GDRP laws as there is a legal basis for providing passport data to immigration services.&lt;/p></description></item></channel></rss>
