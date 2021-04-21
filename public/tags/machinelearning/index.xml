@@ -1,40 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>machinelearning on ovdixon</title><link>https://ovdixon.com/tags/machinelearning/</link><description>ovdixon (machinelearning)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 08 Feb 2021 14:12:24 +1000</lastBuildDate><atom:link href="https://ovdixon.com/tags/machinelearning/index.xml" rel="self" type="application/rss+xml"/><item><title>Teaching my iPhone to recognise fish species 🐠</title><link>https://ovdixon.com/posts/fish-classification/</link><pubDate>Mon, 08 Feb 2021 14:12:24 +1000</pubDate><guid>https://ovdixon.com/posts/fish-classification/</guid><description>&lt;p>Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.&lt;/p>
-&lt;h4 id="collecting-images">Collecting Images&lt;/h4>
-&lt;p>I decided to train a model able to recognise five of the most common recreational fish species caught along the East Coast of Australia; bream, whiting, flathead, luderick and whiting.&lt;/p>
-&lt;figure>
-&lt;img src="species.png"
-alt="Three of the five species"/> &lt;figcaption>
-&lt;p>Three of the five species&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>Using the command line tool Instaloader I scraped images from public instagram hashtags under each species (i.e #sandwhiting) I scraped 1000+ images for each species, then went through and filtered out the best images totalling a minimum of 250.&lt;/p>
-&lt;figure>
-&lt;img src="instaloader.png"
-alt="Using Instaloader in command line"/> &lt;figcaption>
-&lt;p>Using Instaloader in command line&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h4 id="training-on-createml">Training on CreateML&lt;/h4>
-&lt;p>This is Apple&amp;rsquo;s no-code computer vision training tool optimised for use with iOS. You simply drag and drop a collection of class folders to begin training. My training data totalled 1,288 over 5 classes.&lt;/p>
-&lt;figure>
-&lt;img src="training.png"
-alt="Training took a number of hours on my i5 Macbook Air"/> &lt;figcaption>
-&lt;p>Training took a number of hours on my i5 Macbook Air&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h4 id="testing">Testing&lt;/h4>
-&lt;p>I tested the model on 10 unseen images across the 5 species classes. Results were suprising, 10/10 accurate classifications.&lt;/p>
-&lt;figure>
-&lt;img src="testing.png"
-alt="Accurate even when the fish is angled to the camera"/> &lt;figcaption>
-&lt;p>Accurate even when the fish is angled to the camera&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h4 id="deployment">Deployment&lt;/h4>
-&lt;p>I deployed the model to my iPhone 12 Pro using a public project called &lt;a href="https://github.com/shu223/MLModelCamera">MLModelCamera&lt;/a>. It allows for Drag-and-Drop testing of Core ML models.&lt;/p>
-&lt;figure>
-&lt;img src="deployment.png"
-alt="I haven&amp;amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence."/> &lt;figcaption>
-&lt;p>I haven&amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>machinelearning on ovdixon</title>
+    <link>https://ovdixon.com/tags/machinelearning/</link>
+    <description>ovdixon (machinelearning)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Feb 2021 14:12:24 +1000</lastBuildDate>
+    
+    <atom:link href="https://ovdixon.com/tags/machinelearning/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Teaching my iPhone to recognise fish species 🐠</title>
+      <link>https://ovdixon.com/posts/fish-classification/</link>
+      <pubDate>Mon, 08 Feb 2021 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/posts/fish-classification/</guid>
+      <description>&lt;p&gt;Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.&lt;/p&gt;
+&lt;h4 id=&#34;collecting-images&#34;&gt;Collecting Images&lt;/h4&gt;
+&lt;p&gt;I decided to train a model able to recognise five of the most common recreational fish species caught along the East Coast of Australia; bream, whiting, flathead, luderick and whiting.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;species.png&#34;
+         alt=&#34;Three of the five species&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Three of the five species&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Using the command line tool Instaloader I scraped images from public instagram hashtags under each species (i.e #sandwhiting)  I scraped 1000+ images for each species, then went through and filtered out the best images totalling a minimum of 250.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;instaloader.png&#34;
+         alt=&#34;Using Instaloader in command line&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Using Instaloader in command line&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;training-on-createml&#34;&gt;Training on CreateML&lt;/h4&gt;
+&lt;p&gt;This is Apple&amp;rsquo;s no-code computer vision training tool optimised for use with iOS. You simply drag and drop a collection of class folders to begin training. My training data totalled 1,288 over 5 classes.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;training.png&#34;
+         alt=&#34;Training took a number of hours on my i5 Macbook Air&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Training took a number of hours on my i5 Macbook Air&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;testing&#34;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;I tested the model on 10 unseen images across the 5 species classes. Results were suprising, 10/10 accurate classifications.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;testing.png&#34;
+         alt=&#34;Accurate even when the fish is angled to the camera&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Accurate even when the fish is angled to the camera&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;deployment&#34;&gt;Deployment&lt;/h4&gt;
+&lt;p&gt;I deployed the model to my iPhone 12 Pro using a public project called &lt;a href=&#34;https://github.com/shu223/MLModelCamera&#34;&gt;MLModelCamera&lt;/a&gt;. It allows for Drag-and-Drop testing of Core ML models.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;deployment.png&#34;
+         alt=&#34;I haven&amp;amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;I haven&amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,18 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>openprocessing on ovdixon</title><link>https://ovdixon.com/tags/openprocessing/</link><description>ovdixon (openprocessing)</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sat, 09 Mar 2019 19:22:42 +1100</lastBuildDate><atom:link href="https://ovdixon.com/tags/openprocessing/index.xml" rel="self" type="application/rss+xml"/><item><title>Generative Art 🖼</title><link>https://ovdixon.com/posts/generative-art/</link><pubDate>Sat, 09 Mar 2019 19:22:42 +1100</pubDate><guid>https://ovdixon.com/posts/generative-art/</guid><description>&lt;p>Computational systems allow for the realization and expression of ideas that are impossible in other media, or in reality. In such a way, generative computer art is a medium of expression beyond the realm of conventional art, one in which difference can be created within indifference. As part of a university course I took in Design Programming I was required to submit a design inspired by an historical example of computer art.&lt;/p>
-&lt;h4 id="inspiration">Inspiration&lt;/h4>
-&lt;p>Georg Nees was a German academic who is considered one of the pioneers of computer art and generative graphics. He was interested in the relationship between order and disorder in picture composition. This is reflected in the untitled artwork below; Here Nees has introduced random variables into the computer program to produce the disordered lines. These lines are framed within the ordered circles to produce a striking contrast. This artwork served as the inspiration for my own exploration into the practice of generative computer art.&lt;/p>
-&lt;figure>
-&lt;img src="untitled.png"
-alt="Untitled artwork by Georg Nees"/> &lt;figcaption>
-&lt;p>Untitled artwork by Georg Nees&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h4 id="implementation">Implementation&lt;/h4>
-&lt;p>My design was created using &lt;a href="https://p5js.org">p5.js&lt;/a>. This is a client-side library for creating graphic and interactive experiences, based on the core principles of Processing. You can view view the code and live design &lt;a href="https://www.openprocessing.org/sketch/687721">here&lt;/a> (doesn&amp;rsquo;t work well in Safari).&lt;/p>
-&lt;figure>
-&lt;img src="generations.png"
-alt="Six random generations of my design"/> &lt;figcaption>
-&lt;p>Six random generations of my design&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>I sought to create a program which would produce ordered patterns from the intersection of two seemingly disordered sets of lines. The absence of any border around the pattern is designed to evoke a sense of curiosity towards the direction and origin of the lines. The experience of being drawn into the pattern before the program generates a new pattern, is a provocative source of thought for the viewer about whether machines can produce works of artistic value.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>openprocessing on ovdixon</title>
+    <link>https://ovdixon.com/tags/openprocessing/</link>
+    <description>ovdixon (openprocessing)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Sat, 09 Mar 2019 19:22:42 +1100</lastBuildDate>
+    
+    <atom:link href="https://ovdixon.com/tags/openprocessing/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Generative Art 🖼</title>
+      <link>https://ovdixon.com/posts/generative-art/</link>
+      <pubDate>Sat, 09 Mar 2019 19:22:42 +1100</pubDate>
+      
+      <guid>https://ovdixon.com/posts/generative-art/</guid>
+      <description>&lt;p&gt;Computational systems allow for the realization and expression of ideas that are impossible in other media, or in reality. In such a way, generative computer art is a medium of expression beyond the realm of conventional art, one in which difference can be created within indifference. As part of a university course I took in Design Programming I was required to submit a design inspired by an historical example of computer art.&lt;/p&gt;
+&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
+&lt;p&gt;Georg Nees was a German academic who is considered one of the pioneers of computer art and generative graphics. He was interested in the relationship between order and disorder in picture composition. This is reflected in the untitled artwork below; Here Nees has introduced random variables into the computer program to produce the disordered lines. These lines are framed within the ordered circles to produce a striking contrast. This artwork served as the inspiration for my own exploration into the practice of generative computer art.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;untitled.png&#34;
+         alt=&#34;Untitled artwork by Georg Nees&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Untitled artwork by Georg Nees&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
+&lt;p&gt;My design was created using &lt;a href=&#34;https://p5js.org&#34;&gt;p5.js&lt;/a&gt;. This is a client-side library for creating graphic and interactive experiences, based on the core principles of Processing. You can view view the code and live design &lt;a href=&#34;https://www.openprocessing.org/sketch/687721&#34;&gt;here&lt;/a&gt; (doesn&amp;rsquo;t work well in Safari).&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;generations.png&#34;
+         alt=&#34;Six random generations of my design&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Six random generations of my design&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I sought to create a program which would produce ordered patterns from the intersection of two seemingly disordered sets of lines. The absence of any border around the pattern is designed to evoke a sense of curiosity towards the direction and origin of the lines. The experience of being drawn into the pattern before the program generates a new pattern, is a provocative source of thought for the viewer about whether machines can produce works of artistic value.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,140 +1,230 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>ovdixon</title><link>https://ovdixon.com/</link><description>ovdixon</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Mon, 08 Feb 2021 14:12:24 +1000</lastBuildDate><atom:link href="https://ovdixon.com/index.xml" rel="self" type="application/rss+xml"/><item><title>Teaching my iPhone to recognise fish species 🐠</title><link>https://ovdixon.com/posts/fish-classification/</link><pubDate>Mon, 08 Feb 2021 14:12:24 +1000</pubDate><guid>https://ovdixon.com/posts/fish-classification/</guid><description>&lt;p>Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.&lt;/p>
-&lt;h4 id="collecting-images">Collecting Images&lt;/h4>
-&lt;p>I decided to train a model able to recognise five of the most common recreational fish species caught along the East Coast of Australia; bream, whiting, flathead, luderick and whiting.&lt;/p>
-&lt;figure>
-&lt;img src="species.png"
-alt="Three of the five species"/> &lt;figcaption>
-&lt;p>Three of the five species&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>Using the command line tool Instaloader I scraped images from public instagram hashtags under each species (i.e #sandwhiting) I scraped 1000+ images for each species, then went through and filtered out the best images totalling a minimum of 250.&lt;/p>
-&lt;figure>
-&lt;img src="instaloader.png"
-alt="Using Instaloader in command line"/> &lt;figcaption>
-&lt;p>Using Instaloader in command line&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h4 id="training-on-createml">Training on CreateML&lt;/h4>
-&lt;p>This is Apple&amp;rsquo;s no-code computer vision training tool optimised for use with iOS. You simply drag and drop a collection of class folders to begin training. My training data totalled 1,288 over 5 classes.&lt;/p>
-&lt;figure>
-&lt;img src="training.png"
-alt="Training took a number of hours on my i5 Macbook Air"/> &lt;figcaption>
-&lt;p>Training took a number of hours on my i5 Macbook Air&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h4 id="testing">Testing&lt;/h4>
-&lt;p>I tested the model on 10 unseen images across the 5 species classes. Results were suprising, 10/10 accurate classifications.&lt;/p>
-&lt;figure>
-&lt;img src="testing.png"
-alt="Accurate even when the fish is angled to the camera"/> &lt;figcaption>
-&lt;p>Accurate even when the fish is angled to the camera&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h4 id="deployment">Deployment&lt;/h4>
-&lt;p>I deployed the model to my iPhone 12 Pro using a public project called &lt;a href="https://github.com/shu223/MLModelCamera">MLModelCamera&lt;/a>. It allows for Drag-and-Drop testing of Core ML models.&lt;/p>
-&lt;figure>
-&lt;img src="deployment.png"
-alt="I haven&amp;amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence."/> &lt;figcaption>
-&lt;p>I haven&amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>About Me</title><link>https://ovdixon.com/about/</link><pubDate>Fri, 09 Oct 2020 18:36:54 +1100</pubDate><guid>https://ovdixon.com/about/</guid><description>&lt;p>I&amp;rsquo;m Ollie Dixon, a full-time Bachelor of Design Computing at the University of Sydney. I enjoy using my skills in UX design and research to tackle complex problems. I created this website to document the little projects that I keep myself busy with!&lt;/p>
-&lt;p>If you have any questions shoot me an email at &lt;a href="mailto:ovdixon@icloud.com">ovdixon@icloud.com&lt;/a>&lt;/p></description></item><item><title>Tackling COVID-19 Misinformation through Design 🔎</title><link>https://ovdixon.com/posts/community-coping/</link><pubDate>Wed, 07 Oct 2020 14:12:24 +1000</pubDate><guid>https://ovdixon.com/posts/community-coping/</guid><description>&lt;h4 id="inspiration">Inspiration&lt;/h4>
-&lt;figure>
-&lt;img src="echo.jpg"
-alt="Christophe Vorlet @nytimes"/> &lt;figcaption>
-&lt;p>Christophe Vorlet @nytimes&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>This was a group project completed as part of an Interactive Product Design Studio. The focus area was Tackling COVID-19 Misinformation through Design. Rather than trying to censor misinformation we reframed the brief; how could we improve the capacity of communities to cope with the socio-emotional impacts of such information.&lt;/p>
-&lt;h4 id="ideation">Ideation&lt;/h4>
-&lt;p>Below is a (very) high-level summary of our design process:&lt;/p>
-&lt;ol>
-&lt;li>Ideated several concepts&lt;/li>
-&lt;li>Collected user feedback&lt;/li>
-&lt;li>Iterated and refined to a single concept&lt;/li>
-&lt;li>Usability testing&lt;/li>
-&lt;li>High-fidelity prototype&lt;/li>
-&lt;/ol>
-&lt;p>The chosen concept was a &lt;em>community-based platform that facilitates users in sharing strategies to cope with the impacts of COVID-19 misinformation and mandated lockdowns&lt;/em>.&lt;/p>
-&lt;figure>
-&lt;img src="feedback.jpg"
-alt="Concept feedback session over Zoom"/> &lt;figcaption>
-&lt;p>Concept feedback session over Zoom&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="xd.jpg"
-alt="Interactive protoype in Adobe XD"/> &lt;figcaption>
-&lt;p>Interactive protoype in Adobe XD&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h4 id="implementation">Implementation&lt;/h4>
-&lt;p>The web application was developed as a mobile-first static website. It is more a proof of concept with the opportunity to develop the greater functionality in the future.&lt;/p>
-&lt;p>Check the app out live &lt;a href="https://community-coping-3200.glitch.me">here&lt;/a>.&lt;/p>
-&lt;figure>
-&lt;img src="glitch.jpg"
-alt="The app is hosted on Glitch."/> &lt;figcaption>
-&lt;p>The app is hosted on &lt;a href="https://glitch.com">Glitch&lt;/a>.&lt;/p>
-&lt;/figcaption>
-&lt;/figure></description></item><item><title>Fishing Licence Onboarding Redesign 🎣</title><link>https://ovdixon.com/posts/fishing-licence/</link><pubDate>Wed, 01 Jul 2020 14:12:24 +1000</pubDate><guid>https://ovdixon.com/posts/fishing-licence/</guid><description>&lt;h4 id="inspiration">Inspiration&lt;/h4>
-&lt;p>The current process of purchasing a recreational fishing licence online in NSW violates several principles of visual, navigation, and interaction design.&lt;/p>
-&lt;h4 id="ideation">Ideation&lt;/h4>
-&lt;p>I sought to develop an alternative web-based (mobile &amp;amp; desktop) onboarding process for purchasing a fishing licence. I began with some user profiles to understand who would be using the site. Fishing attracts a diverse range of people of all ages. It is important that the licence onboarding be an accessible lightweight experience focused on efficiency.&lt;/p>
-&lt;figure>
-&lt;img src="sketch.png"
-alt="Initial annotated sketches"/> &lt;figcaption>
-&lt;p>Initial annotated sketches&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="wireframe.png"
-alt="Next came low fidelity wireframes"/> &lt;figcaption>
-&lt;p>Next came low fidelity wireframes&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;figure>
-&lt;img src="mockup.png"
-alt="Finally mockups developed using Adobe XD"/> &lt;figcaption>
-&lt;p>Finally mockups developed using Adobe XD&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h4 id="implementation">Implementation&lt;/h4>
-&lt;p>It was developed from the ground up using HTML, CSS and JS Several features, including a progress bar and sticky navigation, were designed to give the user a greater sense of control.&lt;br>
-I received the following feedback from the marker: &amp;ldquo;You scoped this project excellently! Good use of code, only minor mistakes and consistent styling and use of javascript. The website itself was excellently done.&amp;rdquo;&lt;/p>
-&lt;p>Check it out live at: &lt;a href="https://odix8891.github.io/deco-1016-website/">https://odix8891.github.io/deco-1016-website/&lt;/a>&lt;/p></description></item><item><title>Mobile Passport Scanner 🛂</title><link>https://ovdixon.com/posts/passport-scanner/</link><pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate><guid>https://ovdixon.com/posts/passport-scanner/</guid><description>&lt;h4 id="problem">Problem&lt;/h4>
-&lt;p>In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.&lt;/p>
-&lt;h4 id="ideation">Ideation&lt;/h4>
-&lt;p>A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.&lt;/p>
-&lt;figure>
-&lt;img src="ideation.png"
-alt="Simple wireframe sketch (left) served as a template for designing the storyboard (right)"/> &lt;figcaption>
-&lt;p>Simple wireframe sketch (left) served as a template for designing the storyboard (right)&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h4 id="implementation">Implementation&lt;/h4>
-&lt;p>The app was developed for iOS using Xcode. An image of the passport is captured using the system document scanner, VisionKit. The scanned image is then processed using the VNRecognizeTextRequest class, an image analysis request that finds and recognises the the machine readable zone (MRZ) at the bottom of the passport. The MRZ lines are then parsed using third-party &lt;a href="https://github.com/Mattijah/QKMRZParser">QKMRZParser&lt;/a> framework to extract the name, passport number, nationality, date of birth, sex, and passport expiration date.&lt;/p>
-&lt;figure>
-&lt;img src="demo.gif"
-alt="Demo of scanning a passport into the app (running on iPad Pro 11)" width="90%"/> &lt;figcaption>
-&lt;p>Demo of scanning a passport into the app (running on iPad Pro 11)&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h4 id="challenges">Challenges&lt;/h4>
-&lt;p>This was my first iOS project so I had some difficulty with Xcode but overall enjoyed the experience of coding in Swift. Because the app processes sensitive passport information, I had to consider data privacy and protection. All data processed is stored locally on device, however the app would benefit from adding password protection. The app should adhere to GDRP laws as there is a legal basis for providing passport data to immigration services.&lt;/p></description></item><item><title>Generative Art 🖼</title><link>https://ovdixon.com/posts/generative-art/</link><pubDate>Sat, 09 Mar 2019 19:22:42 +1100</pubDate><guid>https://ovdixon.com/posts/generative-art/</guid><description>&lt;p>Computational systems allow for the realization and expression of ideas that are impossible in other media, or in reality. In such a way, generative computer art is a medium of expression beyond the realm of conventional art, one in which difference can be created within indifference. As part of a university course I took in Design Programming I was required to submit a design inspired by an historical example of computer art.&lt;/p>
-&lt;h4 id="inspiration">Inspiration&lt;/h4>
-&lt;p>Georg Nees was a German academic who is considered one of the pioneers of computer art and generative graphics. He was interested in the relationship between order and disorder in picture composition. This is reflected in the untitled artwork below; Here Nees has introduced random variables into the computer program to produce the disordered lines. These lines are framed within the ordered circles to produce a striking contrast. This artwork served as the inspiration for my own exploration into the practice of generative computer art.&lt;/p>
-&lt;figure>
-&lt;img src="untitled.png"
-alt="Untitled artwork by Georg Nees"/> &lt;figcaption>
-&lt;p>Untitled artwork by Georg Nees&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;h4 id="implementation">Implementation&lt;/h4>
-&lt;p>My design was created using &lt;a href="https://p5js.org">p5.js&lt;/a>. This is a client-side library for creating graphic and interactive experiences, based on the core principles of Processing. You can view view the code and live design &lt;a href="https://www.openprocessing.org/sketch/687721">here&lt;/a> (doesn&amp;rsquo;t work well in Safari).&lt;/p>
-&lt;figure>
-&lt;img src="generations.png"
-alt="Six random generations of my design"/> &lt;figcaption>
-&lt;p>Six random generations of my design&lt;/p>
-&lt;/figcaption>
-&lt;/figure>
-&lt;p>I sought to create a program which would produce ordered patterns from the intersection of two seemingly disordered sets of lines. The absence of any border around the pattern is designed to evoke a sense of curiosity towards the direction and origin of the lines. The experience of being drawn into the pattern before the program generates a new pattern, is a provocative source of thought for the viewer about whether machines can produce works of artistic value.&lt;/p></description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ovdixon</title>
+    <link>https://ovdixon.com/</link>
+    <description>ovdixon</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Mon, 08 Feb 2021 14:12:24 +1000</lastBuildDate>
+    
+    <atom:link href="https://ovdixon.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Teaching my iPhone to recognise fish species 🐠</title>
+      <link>https://ovdixon.com/posts/fish-classification/</link>
+      <pubDate>Mon, 08 Feb 2021 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/posts/fish-classification/</guid>
+      <description>&lt;p&gt;Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.&lt;/p&gt;
+&lt;h4 id=&#34;collecting-images&#34;&gt;Collecting Images&lt;/h4&gt;
+&lt;p&gt;I decided to train a model able to recognise five of the most common recreational fish species caught along the East Coast of Australia; bream, whiting, flathead, luderick and whiting.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;species.png&#34;
+         alt=&#34;Three of the five species&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Three of the five species&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;Using the command line tool Instaloader I scraped images from public instagram hashtags under each species (i.e #sandwhiting)  I scraped 1000+ images for each species, then went through and filtered out the best images totalling a minimum of 250.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;instaloader.png&#34;
+         alt=&#34;Using Instaloader in command line&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Using Instaloader in command line&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;training-on-createml&#34;&gt;Training on CreateML&lt;/h4&gt;
+&lt;p&gt;This is Apple&amp;rsquo;s no-code computer vision training tool optimised for use with iOS. You simply drag and drop a collection of class folders to begin training. My training data totalled 1,288 over 5 classes.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;training.png&#34;
+         alt=&#34;Training took a number of hours on my i5 Macbook Air&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Training took a number of hours on my i5 Macbook Air&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;testing&#34;&gt;Testing&lt;/h4&gt;
+&lt;p&gt;I tested the model on 10 unseen images across the 5 species classes. Results were suprising, 10/10 accurate classifications.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;testing.png&#34;
+         alt=&#34;Accurate even when the fish is angled to the camera&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Accurate even when the fish is angled to the camera&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;deployment&#34;&gt;Deployment&lt;/h4&gt;
+&lt;p&gt;I deployed the model to my iPhone 12 Pro using a public project called &lt;a href=&#34;https://github.com/shu223/MLModelCamera&#34;&gt;MLModelCamera&lt;/a&gt;. It allows for Drag-and-Drop testing of Core ML models.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;deployment.png&#34;
+         alt=&#34;I haven&amp;amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;I haven&amp;rsquo;t had a chance to test it live on a fishing trip, will update the post hence.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>About Me</title>
+      <link>https://ovdixon.com/about/</link>
+      <pubDate>Fri, 09 Oct 2020 18:36:54 +1100</pubDate>
+      
+      <guid>https://ovdixon.com/about/</guid>
+      <description>&lt;p&gt;I&amp;rsquo;m Ollie Dixon, a full-time Bachelor of Design Computing at the University of Sydney. I enjoy using my skills in UX design and research to tackle complex problems. I created this website to document the little projects that I keep myself busy with!&lt;/p&gt;
+&lt;p&gt;If you have any questions shoot me an email at &lt;a href=&#34;mailto:ovdixon@icloud.com&#34;&gt;ovdixon@icloud.com&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tackling COVID-19 Misinformation through Design 🔎 </title>
+      <link>https://ovdixon.com/posts/community-coping/</link>
+      <pubDate>Wed, 07 Oct 2020 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/posts/community-coping/</guid>
+      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;echo.jpg&#34;
+         alt=&#34;Christophe Vorlet @nytimes&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Christophe Vorlet @nytimes&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This was a group project completed as part of an Interactive Product Design Studio. The focus area was Tackling COVID-19 Misinformation through Design. Rather than trying to censor misinformation  we reframed the brief; how could we improve the capacity of communities to cope with the socio-emotional impacts of such information.&lt;/p&gt;
+&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
+&lt;p&gt;Below is a (very) high-level summary of our design process:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Ideated several concepts&lt;/li&gt;
+&lt;li&gt;Collected user feedback&lt;/li&gt;
+&lt;li&gt;Iterated and refined to a single concept&lt;/li&gt;
+&lt;li&gt;Usability testing&lt;/li&gt;
+&lt;li&gt;High-fidelity prototype&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The chosen concept was a &lt;em&gt;community-based platform that facilitates users in sharing strategies to cope with the impacts of COVID-19 misinformation and mandated lockdowns&lt;/em&gt;.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;feedback.jpg&#34;
+         alt=&#34;Concept feedback session over Zoom&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Concept feedback session over Zoom&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;xd.jpg&#34;
+         alt=&#34;Interactive protoype in Adobe XD&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Interactive protoype in Adobe XD&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
+&lt;p&gt;The web application was developed as a mobile-first static website. It is more a proof of concept with the opportunity to develop the greater functionality in the future.&lt;/p&gt;
+&lt;p&gt;Check the app out live &lt;a href=&#34;https://community-coping-3200.glitch.me&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;glitch.jpg&#34;
+         alt=&#34;The app is hosted on Glitch.&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;The app is hosted on &lt;a href=&#34;https://glitch.com&#34;&gt;Glitch&lt;/a&gt;.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Fishing Licence Onboarding Redesign 🎣</title>
+      <link>https://ovdixon.com/posts/fishing-licence/</link>
+      <pubDate>Wed, 01 Jul 2020 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/posts/fishing-licence/</guid>
+      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
+&lt;p&gt;The current process of purchasing a recreational fishing licence online in NSW violates several principles of visual, navigation, and interaction design.&lt;/p&gt;
+&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
+&lt;p&gt;I sought to develop an alternative web-based (mobile &amp;amp; desktop) onboarding process for purchasing a fishing licence. I began with some user profiles to understand who would be using the site. Fishing attracts a diverse range of people of all ages. It is important that the licence onboarding be an accessible lightweight experience focused on efficiency.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;sketch.png&#34;
+         alt=&#34;Initial annotated sketches&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Initial annotated sketches&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;wireframe.png&#34;
+         alt=&#34;Next came low fidelity wireframes&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Next came low fidelity wireframes&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;mockup.png&#34;
+         alt=&#34;Finally mockups developed using Adobe XD&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Finally mockups developed using Adobe XD&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
+&lt;p&gt;It was developed from the ground up using HTML, CSS and JS  Several features, including a progress bar and sticky navigation, were designed to give the user a greater sense of control.&lt;br&gt;
+I received the following feedback from the marker: &amp;ldquo;You scoped this project excellently!  Good use of code, only minor mistakes and consistent styling and use of javascript. The website itself was excellently done.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Check it out live at: &lt;a href=&#34;https://odix8891.github.io/deco-1016-website/&#34;&gt;https://odix8891.github.io/deco-1016-website/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Mobile Passport Scanner 🛂</title>
+      <link>https://ovdixon.com/posts/passport-scanner/</link>
+      <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/posts/passport-scanner/</guid>
+      <description>&lt;h4 id=&#34;problem&#34;&gt;Problem&lt;/h4&gt;
+&lt;p&gt;In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.&lt;/p&gt;
+&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
+&lt;p&gt;A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;ideation.png&#34;
+         alt=&#34;Simple wireframe sketch (left) served as a template for designing the storyboard (right)&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Simple wireframe sketch (left) served as a template for designing the storyboard (right)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
+&lt;p&gt;The app was developed for iOS using Xcode. An image of the passport is captured using the system document scanner, VisionKit. The scanned image is then processed using the VNRecognizeTextRequest class, an image analysis request that finds and recognises the the machine readable zone (MRZ) at the bottom of the passport. The MRZ lines are then parsed using third-party &lt;a href=&#34;https://github.com/Mattijah/QKMRZParser&#34;&gt;QKMRZParser&lt;/a&gt; framework to extract the name, passport number, nationality, date of birth, sex, and passport expiration date.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;demo.gif&#34;
+         alt=&#34;Demo of scanning a passport into the app (running on iPad Pro 11)&#34; width=&#34;90%&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Demo of scanning a passport into the app (running on iPad Pro 11)&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;challenges&#34;&gt;Challenges&lt;/h4&gt;
+&lt;p&gt;This was my first iOS project so I had some difficulty with Xcode but overall enjoyed the experience of coding in Swift. Because the app  processes sensitive passport information, I had to consider data privacy and protection. All data processed is stored locally on device, however the app would benefit from adding password protection. The app should adhere to GDRP laws as there is a legal basis for providing passport data to immigration services.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Generative Art 🖼</title>
+      <link>https://ovdixon.com/posts/generative-art/</link>
+      <pubDate>Sat, 09 Mar 2019 19:22:42 +1100</pubDate>
+      
+      <guid>https://ovdixon.com/posts/generative-art/</guid>
+      <description>&lt;p&gt;Computational systems allow for the realization and expression of ideas that are impossible in other media, or in reality. In such a way, generative computer art is a medium of expression beyond the realm of conventional art, one in which difference can be created within indifference. As part of a university course I took in Design Programming I was required to submit a design inspired by an historical example of computer art.&lt;/p&gt;
+&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
+&lt;p&gt;Georg Nees was a German academic who is considered one of the pioneers of computer art and generative graphics. He was interested in the relationship between order and disorder in picture composition. This is reflected in the untitled artwork below; Here Nees has introduced random variables into the computer program to produce the disordered lines. These lines are framed within the ordered circles to produce a striking contrast. This artwork served as the inspiration for my own exploration into the practice of generative computer art.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;untitled.png&#34;
+         alt=&#34;Untitled artwork by Georg Nees&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Untitled artwork by Georg Nees&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
+&lt;p&gt;My design was created using &lt;a href=&#34;https://p5js.org&#34;&gt;p5.js&lt;/a&gt;. This is a client-side library for creating graphic and interactive experiences, based on the core principles of Processing. You can view view the code and live design &lt;a href=&#34;https://www.openprocessing.org/sketch/687721&#34;&gt;here&lt;/a&gt; (doesn&amp;rsquo;t work well in Safari).&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;generations.png&#34;
+         alt=&#34;Six random generations of my design&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Six random generations of my design&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;I sought to create a program which would produce ordered patterns from the intersection of two seemingly disordered sets of lines. The absence of any border around the pattern is designed to evoke a sense of curiosity towards the direction and origin of the lines. The experience of being drawn into the pattern before the program generates a new pattern, is a provocative source of thought for the viewer about whether machines can produce works of artistic value.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

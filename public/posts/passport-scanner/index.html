@@ -1,2 +1,212 @@
-<!doctype html><html lang=en-us data-theme><head><meta charset=utf-8><meta name=HandheldFriendly content="True"><meta name=viewport content="width=device-width,initial-scale=1"><meta name=referrer content="no-referrer-when-downgrade"><title>Mobile Passport Scanner 🛂 - ovdixon</title><meta name=description content><link rel=icon type=image/x-icon href=https://ovdixon.com/favicon.ico><link rel=apple-touch-icon-precomposed href=https://ovdixon.com/favicon.png><link rel=stylesheet href="https://ovdixon.com/css/light.css?rnd=1618982451"><style>[data-theme=dark]{--font-color:#eee;--bg-color:#212121;--link-color:#599ada;--link-state-color:#ff5858;--link-state-border-color:rgba(238, 54, 54, 0.5);--thead-bg-color:#343a40;--table-border-color:lightgrey;--pre-color:#333;--pre-bg-color:#f1f1f1;--bq-color:#ccc;--hr-color:#333;--pagination-bg-color:#373737;--pagination-link-color:#b6b6b6;--post-info-color:grey;--switcher-color:#333;--switcher-bg-color:#fff}</style><link rel=stylesheet href="https://ovdixon.com/css/style.css?rnd=1618982451"><link rel=stylesheet href="https://ovdixon.com/css/my.css?rnd=1618982451"><script src="https://ovdixon.com/js/main.js?rnd=1618982451" type=text/javascript></script><meta property="og:title" content="Mobile Passport Scanner 🛂"><meta property="og:description" content="An iOS app for scanning the Machine Readable Zone (MRZ) from a passport."><meta property="og:type" content="article"><meta property="og:url" content="https://ovdixon.com/posts/passport-scanner/"><meta property="og:image" content="https://ovdixon.com/images/og-featured.png"><meta property="article:section" content="posts"><meta property="article:published_time" content="2020-04-07T14:12:24+10:00"><meta property="article:modified_time" content="2020-04-07T14:12:24+10:00"><meta name=twitter:card content="summary_large_image"><meta name=twitter:image content="https://ovdixon.com/images/og-featured.png"><meta name=twitter:title content="Mobile Passport Scanner 🛂"><meta name=twitter:description content="An iOS app for scanning the Machine Readable Zone (MRZ) from a passport."><script type=application/javascript>var doNotTrack=!1;doNotTrack||(window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)},ga.l=+new Date,ga('create','G-19YEDHDYJC','auto'),ga('send','pageview'))</script><script async src=https://www.google-analytics.com/analytics.js></script></head><body><a class=skip-main href=#main>Skip to main content</a><div class=container><header class=common-header><h1 class=site-title><a href=/>ovdixon</a></h1><nav><a href=https://ovdixon.com/about title=About>About</a>
-<a href=https://ovdixon.com/posts/ title=Posts>Posts</a></nav></header><main id=main tabindex=-1><article class=post><header class=post-header><h1 class=post-title>Mobile Passport Scanner 🛂</h1></header><div class=content><h4 id=problem>Problem</h4><p>In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.</p><h4 id=ideation>Ideation</h4><p>A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.</p><figure><img src=ideation.png alt="Simple wireframe sketch (left) served as a template for designing the storyboard (right)"><figcaption><p>Simple wireframe sketch (left) served as a template for designing the storyboard (right)</p></figcaption></figure><h4 id=implementation>Implementation</h4><p>The app was developed for iOS using Xcode. An image of the passport is captured using the system document scanner, VisionKit. The scanned image is then processed using the VNRecognizeTextRequest class, an image analysis request that finds and recognises the the machine readable zone (MRZ) at the bottom of the passport. The MRZ lines are then parsed using third-party <a href=https://github.com/Mattijah/QKMRZParser>QKMRZParser</a> framework to extract the name, passport number, nationality, date of birth, sex, and passport expiration date.</p><figure><img src=demo.gif alt="Demo of scanning a passport into the app (running on iPad Pro 11)" width=90%><figcaption><p>Demo of scanning a passport into the app (running on iPad Pro 11)</p></figcaption></figure><h4 id=challenges>Challenges</h4><p>This was my first iOS project so I had some difficulty with Xcode but overall enjoyed the experience of coding in Swift. Because the app processes sensitive passport information, I had to consider data privacy and protection. All data processed is stored locally on device, however the app would benefit from adding password protection. The app should adhere to GDRP laws as there is a legal basis for providing passport data to immigration services.</p></div><div class=post-info><div class=post-date>2020-04-07</div><div class=post-taxonomies><ul class=post-tags><li><a href=https://ovdixon.com/tags/passport>#passport</a></li><li><a href=https://ovdixon.com/tags/computervision>#computervision</a></li><li><a href=https://ovdixon.com/tags/ios>#ios</a></li></ul></div></div></article><div class="pagination post-pagination"><div class="left pagination-item"><a href=/posts/fishing-licence/>Fishing Licence Onboarding Redesign 🎣</a></div><div class="right pagination-item"><a href=/posts/generative-art/>Generative Art 🖼</a></div></div></main><footer class=common-footer><div class=common-footer-bottom><div class=copyright><p>© Oliver Dixon, 2021<br>Powered by <a target=_blank rel="noopener noreferrer" href=https://gohugo.io/>Hugo</a>, theme <a target=_blank rel="noopener noreferrer" href=https://github.com/mitrichius/hugo-theme-anubis>Anubis</a>.</p></div></div></footer></div></body></html>
+<!DOCTYPE html>
+
+
+<html lang="en-us" data-theme="">
+<head>
+	
+    
+        
+<meta charset="utf-8">
+<meta name="HandheldFriendly" content="True">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="referrer" content="no-referrer-when-downgrade">
+
+<title>Mobile Passport Scanner 🛂 - ovdixon</title>
+<meta name="description" content="">
+
+<link rel="icon" type="image/x-icon" href="https://ovdixon.com/favicon.ico">
+<link rel="apple-touch-icon-precomposed" href="https://ovdixon.com/favicon.png">
+
+<link rel="stylesheet" href="https://ovdixon.com/css/light.css?rnd=1618983159" />
+<style>
+
+    [data-theme="dark"] {   
+        --font-color: #eee;
+--bg-color: #212121;
+
+--link-color:#599ada;
+--link-state-color:#ff5858;
+--link-state-border-color: rgba(238, 54, 54, 0.5);
+
+--thead-bg-color: #343a40;
+--table-border-color: lightgrey;
+
+--pre-color: #333;
+--pre-bg-color: #f1f1f1;
+
+--bq-color: #ccc;
+--hr-color: #333;
+
+--pagination-bg-color: #373737;
+--pagination-link-color: #b6b6b6;
+
+--post-info-color: grey;
+
+--switcher-color: #333;
+--switcher-bg-color: #fff;
+
+    }
+
+</style>
+
+<link rel="stylesheet" href="https://ovdixon.com/css/style.css?rnd=1618983159" />
+
+<link rel="stylesheet" href="https://ovdixon.com/css/my.css?rnd=1618983159">
+
+<script src="https://ovdixon.com/js/main.js?rnd=1618983159" type="text/javascript" charset="utf-8"></script>
+
+<meta property="og:title" content="Mobile Passport Scanner 🛂" />
+<meta property="og:description" content="An iOS app for scanning the Machine Readable Zone (MRZ) from a passport." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ovdixon.com/posts/passport-scanner/" /><meta property="og:image" content="https://ovdixon.com/images/og-featured.png"/><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2020-04-07T14:12:24&#43;10:00" />
+<meta property="article:modified_time" content="2020-04-07T14:12:24&#43;10:00" />
+
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta name="twitter:image" content="https://ovdixon.com/images/og-featured.png"/>
+
+<meta name="twitter:title" content="Mobile Passport Scanner 🛂"/>
+<meta name="twitter:description" content="An iOS app for scanning the Machine Readable Zone (MRZ) from a passport."/>
+
+
+
+
+
+
+    
+
+
+
+    
+</head>
+<body>
+    <a class="skip-main" href="#main">Skip to main content</a>
+    <div class="container">
+        <header class="common-header"> 
+            
+                <h1 class="site-title">
+    <a href="/">ovdixon</a>
+</h1>
+
+    <nav>
+        
+        
+        <a class="" href="https://ovdixon.com/about" title="About">About</a>
+        
+        <a class="" href="https://ovdixon.com/posts/" title="Posts">Posts</a>
+        
+    </nav>
+
+
+            
+        </header>
+        <main id="main" tabindex="-1"> 
+            
+    
+    
+    <article class="post">
+        <header class="post-header">
+            <h1 class="post-title">Mobile Passport Scanner 🛂</h1>
+        </header>
+        <div class="content">
+            <h4 id="problem">Problem</h4>
+<p>In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.</p>
+<h4 id="ideation">Ideation</h4>
+<p>A mobile application that uses the phones camera to scan the Machine Readable Zone (MRZ) from passports. From this MRZ, the passport can be verified and necessary guest data recorded to be forwarded onto immigration.</p>
+<figure>
+    <img src="ideation.png"
+         alt="Simple wireframe sketch (left) served as a template for designing the storyboard (right)"/> <figcaption>
+            <p>Simple wireframe sketch (left) served as a template for designing the storyboard (right)</p>
+        </figcaption>
+</figure>
+
+<h4 id="implementation">Implementation</h4>
+<p>The app was developed for iOS using Xcode. An image of the passport is captured using the system document scanner, VisionKit. The scanned image is then processed using the VNRecognizeTextRequest class, an image analysis request that finds and recognises the the machine readable zone (MRZ) at the bottom of the passport. The MRZ lines are then parsed using third-party <a href="https://github.com/Mattijah/QKMRZParser">QKMRZParser</a> framework to extract the name, passport number, nationality, date of birth, sex, and passport expiration date.</p>
+<figure>
+    <img src="demo.gif"
+         alt="Demo of scanning a passport into the app (running on iPad Pro 11)" width="90%"/> <figcaption>
+            <p>Demo of scanning a passport into the app (running on iPad Pro 11)</p>
+        </figcaption>
+</figure>
+
+<h4 id="challenges">Challenges</h4>
+<p>This was my first iOS project so I had some difficulty with Xcode but overall enjoyed the experience of coding in Swift. Because the app  processes sensitive passport information, I had to consider data privacy and protection. All data processed is stored locally on device, however the app would benefit from adding password protection. The app should adhere to GDRP laws as there is a legal basis for providing passport data to immigration services.</p>
+
+        </div>
+        
+
+    
+
+
+<div class="post-info">
+    
+        <div class="post-date">2020-04-07</div>
+    
+    <div class="post-taxonomies">
+        
+            
+                <ul class="post-tags">
+                    
+                        <li><a href="https://ovdixon.com/tags/passport">#passport</a></li>
+                    
+                        <li><a href="https://ovdixon.com/tags/computervision">#computervision</a></li>
+                    
+                        <li><a href="https://ovdixon.com/tags/ios">#ios</a></li>
+                    
+                </ul>
+        
+    </div>
+</div>
+
+    </article>
+
+    
+        
+    <div class="pagination post-pagination">
+        <div class="left pagination-item ">
+            
+                <a href="/posts/fishing-licence/">Fishing Licence Onboarding Redesign 🎣</a>
+            
+        </div>
+        <div class="right pagination-item ">
+            
+                <a href="/posts/generative-art/">Generative Art 🖼</a>
+            
+        </div>
+    </div>
+
+    
+
+    
+
+
+        </main>
+        
+            <footer class="common-footer">
+    
+    
+
+     
+
+    <div class="common-footer-bottom">
+        <div class="copyright">
+            <p>© Oliver Dixon, 2021<br>
+            Powered by <a target="_blank" rel="noopener noreferrer" href="https://gohugo.io/">Hugo</a>, theme <a target="_blank" rel="noopener noreferrer" href="https://github.com/mitrichius/hugo-theme-anubis">Anubis</a>.
+            </p>  
+        </div> 
+
+        
+
+    
+
+
+   
+    </div>
+
+</footer>
+
+        
+    </div>
+</body>
+</html>
