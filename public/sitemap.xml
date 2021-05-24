@@ -2,6 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://ovdixon.com/tags/datajournalism/</loc>
+    <lastmod>2021-05-10T14:12:24+10:00</lastmod>
+  </url><url>
+    <loc>https://ovdixon.com/</loc>
+    <lastmod>2021-05-10T14:12:24+10:00</lastmod>
+  </url><url>
+    <loc>https://ovdixon.com/tags/plotly.js/</loc>
+    <lastmod>2021-05-10T14:12:24+10:00</lastmod>
+  </url><url>
+    <loc>https://ovdixon.com/posts/</loc>
+    <lastmod>2021-05-10T14:12:24+10:00</lastmod>
+  </url><url>
+    <loc>https://ovdixon.com/tags/</loc>
+    <lastmod>2021-05-10T14:12:24+10:00</lastmod>
+  </url><url>
+    <loc>https://ovdixon.com/tags/visualisation/</loc>
+    <lastmod>2021-05-10T14:12:24+10:00</lastmod>
+  </url><url>
+    <loc>https://ovdixon.com/posts/child-mortality/</loc>
+    <lastmod>2021-05-10T14:12:24+10:00</lastmod>
+  </url><url>
+    <loc>https://ovdixon.com/tags/web/</loc>
+    <lastmod>2021-05-10T14:12:24+10:00</lastmod>
+  </url><url>
     <loc>https://ovdixon.com/tags/computervision/</loc>
     <lastmod>2021-02-08T14:12:24+10:00</lastmod>
   </url><url>
@@ -12,15 +36,6 @@
     <lastmod>2021-02-08T14:12:24+10:00</lastmod>
   </url><url>
     <loc>https://ovdixon.com/tags/machinelearning/</loc>
-    <lastmod>2021-02-08T14:12:24+10:00</lastmod>
-  </url><url>
-    <loc>https://ovdixon.com/</loc>
-    <lastmod>2021-02-08T14:12:24+10:00</lastmod>
-  </url><url>
-    <loc>https://ovdixon.com/posts/</loc>
-    <lastmod>2021-02-08T14:12:24+10:00</lastmod>
-  </url><url>
-    <loc>https://ovdixon.com/tags/</loc>
     <lastmod>2021-02-08T14:12:24+10:00</lastmod>
   </url><url>
     <loc>https://ovdixon.com/posts/fish-classification/</loc>
@@ -36,9 +51,6 @@
     <lastmod>2020-10-07T14:12:24+10:00</lastmod>
   </url><url>
     <loc>https://ovdixon.com/posts/community-coping/</loc>
-    <lastmod>2020-10-07T14:12:24+10:00</lastmod>
-  </url><url>
-    <loc>https://ovdixon.com/tags/web/</loc>
     <lastmod>2020-10-07T14:12:24+10:00</lastmod>
   </url><url>
     <loc>https://ovdixon.com/tags/css/</loc>
