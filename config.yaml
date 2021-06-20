@@ -9,10 +9,10 @@ enableRobotsTXT: true
 
 menu:
   main:
-  - identifier: archive
-    name: Posts
-    title: Posts
-    url: /posts/
+  - identifier: projects
+    name: Projects
+    title: Projects
+    url: /projects/
     weight: 0
   - identifier: about
     name: About

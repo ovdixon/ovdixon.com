@@ -3,6 +3,10 @@ title: "About Me"
 date: 2020-10-09T18:36:54+11:00
 draft: false
 ---
-I'm Ollie Dixon, a full-time Bachelor of Design Computing at the University of Sydney. I enjoy using my skills in UX design and research to tackle complex problems. I created this website to document the little projects that I keep myself busy with! 
 
-If you have any questions shoot me an email at ovdixon@icloud.com
+I'm Oliver, a recent graduate of the University of Sydney, where I earned a Bachelor of Design Computing degree. I possess a strong interest in the new technologies reshaping design, living and sustainability. I am currently seeking to gain commercial exposure and ultimately contribute to positive change
+
+You can view my CV [here](/CV.pdf).
+
+Alternatively, send me an email at ovdixon@icloud.com
+
