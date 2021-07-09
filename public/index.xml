@@ -6,18 +6,36 @@
     <description>ovdixon</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 10 May 2021 14:12:24 +1000</lastBuildDate>
+    <lastBuildDate>Sun, 13 Jun 2021 14:12:24 +1000</lastBuildDate>
     
     <atom:link href="https://ovdixon.com/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>Visualising Child Mortality and Electricity Access 🔌</title>
-      <link>https://ovdixon.com/posts/child-mortality/</link>
+      <title>What if Trump had played more golf? ⛳️</title>
+      <link>https://ovdixon.com/projects/trump-golf/</link>
+      <pubDate>Sun, 13 Jun 2021 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/projects/trump-golf/</guid>
+      <description>&lt;p&gt;I wrote this story as part of an Information Visualisation Design Studio I took at university. For the assignment I was given an &lt;a href=&#34;https://github.com/owid/owid-datasets/tree/master/datasets/Child%20mortality%2C%201950-2017%20(IHME%2C%202017)&#34;&gt;archive&lt;/a&gt; of all tweets from President Trump during his time in office. The story that I sought to tell was how the Twitter habits of Donald Trump are influenced by his love of golf.&lt;/p&gt;
+&lt;p&gt;Scroll through the story below. You can also check out the static site code &lt;a href=&#34;https://replit.com/@ovdixon/TrumpTweetsGolf#index.html&#34;&gt;here&lt;/a&gt;. &lt;br&gt;&lt;br&gt;&lt;/p&gt;
+  	
+
+&lt;div&gt;
+	&lt;iframe style=&#34;width:100%; height:750px; border: 1px solid black;&#34; src=&#34;https://trumptweetsgolf.ovdixon.repl.co&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+</description>
+    </item>
+    
+    <item>
+      <title>Dying in the Dark 🔌</title>
+      <link>https://ovdixon.com/projects/child-mortality/</link>
       <pubDate>Mon, 10 May 2021 14:12:24 +1000</pubDate>
       
-      <guid>https://ovdixon.com/posts/child-mortality/</guid>
-      <description>&lt;p&gt;This piece of data journalism was written for an Information Visualisation Design Studio I took at university. We were given a historical &lt;a href=&#34;https://github.com/owid/owid-datasets/tree/master/datasets/Child%20mortality%2C%201950-2017%20(IHME%2C%202017)&#34;&gt;dataset&lt;/a&gt; on child mortality around the world. The story I sought to tell was how the lives of children living in Sub-Saharan Africa are being disproportionately endangered by electricity poverty.&lt;/p&gt;
+      <guid>https://ovdixon.com/projects/child-mortality/</guid>
+      <description>&lt;p&gt;This piece of data journalism was written for an Information Visualisation Design Studio I took at university. I was given a historical &lt;a href=&#34;https://github.com/owid/owid-datasets/tree/master/datasets/Child%20mortality%2C%201950-2017%20(IHME%2C%202017)&#34;&gt;dataset&lt;/a&gt; on child mortality around the world. The story I sought to tell was how the lives of children living in Sub-Saharan Africa are being disproportionately endangered by electricity poverty.&lt;/p&gt;
 &lt;p&gt;Scroll through the story below. You can also check out the static site code &lt;a href=&#34;https://replit.com/@ovdixon/Dying-in-the-Dark#index.html&#34;&gt;here&lt;/a&gt;. &lt;br&gt;&lt;br&gt;&lt;/p&gt;
 
 
@@ -31,10 +49,10 @@
     
     <item>
       <title>Teaching my iPhone to recognise fish species 🐠</title>
-      <link>https://ovdixon.com/posts/fish-classification/</link>
+      <link>https://ovdixon.com/projects/fish-classification/</link>
       <pubDate>Mon, 08 Feb 2021 14:12:24 +1000</pubDate>
       
-      <guid>https://ovdixon.com/posts/fish-classification/</guid>
+      <guid>https://ovdixon.com/projects/fish-classification/</guid>
       <description>&lt;p&gt;Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.&lt;/p&gt;
 &lt;h4 id=&#34;collecting-images&#34;&gt;Collecting Images&lt;/h4&gt;
 &lt;p&gt;I decided to train a model able to recognise five of the most common recreational fish species caught along the East Coast of Australia; bream, whiting, flathead, luderick and whiting.&lt;/p&gt;
@@ -89,17 +107,18 @@
       <pubDate>Fri, 09 Oct 2020 18:36:54 +1100</pubDate>
       
       <guid>https://ovdixon.com/about/</guid>
-      <description>&lt;p&gt;I&amp;rsquo;m Ollie Dixon, a full-time Bachelor of Design Computing at the University of Sydney. I enjoy using my skills in UX design and research to tackle complex problems. I created this website to document the little projects that I keep myself busy with!&lt;/p&gt;
-&lt;p&gt;If you have any questions shoot me an email at &lt;a href=&#34;mailto:ovdixon@icloud.com&#34;&gt;ovdixon@icloud.com&lt;/a&gt;&lt;/p&gt;
+      <description>&lt;p&gt;I&amp;rsquo;m Oliver, a recent graduate of the University of Sydney, where I earned a Bachelor of Design Computing degree. I possess a strong interest in the new technologies reshaping design, living and sustainability. I am currently seeking to gain commercial exposure and ultimately contribute to positive change&lt;/p&gt;
+&lt;p&gt;You can view my CV &lt;a href=&#34;https://ovdixon.com/CV.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Alternatively, send me an email at &lt;a href=&#34;mailto:ovdixon@icloud.com&#34;&gt;ovdixon@icloud.com&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Tackling COVID-19 Misinformation through Design 🔎 </title>
-      <link>https://ovdixon.com/posts/community-coping/</link>
+      <link>https://ovdixon.com/projects/community-coping/</link>
       <pubDate>Wed, 07 Oct 2020 14:12:24 +1000</pubDate>
       
-      <guid>https://ovdixon.com/posts/community-coping/</guid>
+      <guid>https://ovdixon.com/projects/community-coping/</guid>
       <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
 &lt;figure&gt;
     &lt;img src=&#34;echo.jpg&#34;
@@ -148,10 +167,10 @@
     
     <item>
       <title>Fishing Licence Onboarding Redesign 🎣</title>
-      <link>https://ovdixon.com/posts/fishing-licence/</link>
+      <link>https://ovdixon.com/projects/fishing-licence/</link>
       <pubDate>Wed, 01 Jul 2020 14:12:24 +1000</pubDate>
       
-      <guid>https://ovdixon.com/posts/fishing-licence/</guid>
+      <guid>https://ovdixon.com/projects/fishing-licence/</guid>
       <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
 &lt;p&gt;The current process of purchasing a recreational fishing licence online in NSW violates several principles of visual, navigation, and interaction design.&lt;/p&gt;
 &lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
@@ -186,10 +205,10 @@ I received the following feedback from the marker: &amp;ldquo;You scoped this pr
     
     <item>
       <title>Mobile Passport Scanner 🛂</title>
-      <link>https://ovdixon.com/posts/passport-scanner/</link>
+      <link>https://ovdixon.com/projects/passport-scanner/</link>
       <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
       
-      <guid>https://ovdixon.com/posts/passport-scanner/</guid>
+      <guid>https://ovdixon.com/projects/passport-scanner/</guid>
       <description>&lt;h4 id=&#34;problem&#34;&gt;Problem&lt;/h4&gt;
 &lt;p&gt;In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.&lt;/p&gt;
 &lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
@@ -217,10 +236,10 @@ I received the following feedback from the marker: &amp;ldquo;You scoped this pr
     
     <item>
       <title>Generative Art 🖼</title>
-      <link>https://ovdixon.com/posts/generative-art/</link>
+      <link>https://ovdixon.com/projects/generative-art/</link>
       <pubDate>Sat, 09 Mar 2019 19:22:42 +1100</pubDate>
       
-      <guid>https://ovdixon.com/posts/generative-art/</guid>
+      <guid>https://ovdixon.com/projects/generative-art/</guid>
       <description>&lt;p&gt;Computational systems allow for the realization and expression of ideas that are impossible in other media, or in reality. In such a way, generative computer art is a medium of expression beyond the realm of conventional art, one in which difference can be created within indifference. As part of a university course I took in Design Programming I was required to submit a design inspired by an historical example of computer art.&lt;/p&gt;
 &lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
 &lt;p&gt;Georg Nees was a German academic who is considered one of the pioneers of computer art and generative graphics. He was interested in the relationship between order and disorder in picture composition. This is reflected in the untitled artwork below; Here Nees has introduced random variables into the computer program to produce the disordered lines. These lines are framed within the ordered circles to produce a striking contrast. This artwork served as the inspiration for my own exploration into the practice of generative computer art.&lt;/p&gt;

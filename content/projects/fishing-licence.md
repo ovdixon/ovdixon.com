@@ -3,7 +3,7 @@ title: "Fishing Licence Onboarding Redesign 🎣"
 date: 2020-07-01T14:12:24+10:00
 draft: false
 summary: "Redesigning the experience of purchasing a recreational fishing licence online"
-tags: ["fishing","html","css","js" ] 
+tags: ["fishing","javascript","ux"] 
 ---
 
 #### Inspiration

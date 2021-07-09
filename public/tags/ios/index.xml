@@ -13,10 +13,10 @@
     
     <item>
       <title>Teaching my iPhone to recognise fish species 🐠</title>
-      <link>https://ovdixon.com/posts/fish-classification/</link>
+      <link>https://ovdixon.com/projects/fish-classification/</link>
       <pubDate>Mon, 08 Feb 2021 14:12:24 +1000</pubDate>
       
-      <guid>https://ovdixon.com/posts/fish-classification/</guid>
+      <guid>https://ovdixon.com/projects/fish-classification/</guid>
       <description>&lt;p&gt;Fishing has always been a hobby of mine. To ensure the sustainiblity of recreational fish stocks it is important that fisherman are able to recognise different fish species and recall size restrictions / bag limits. I thought this application could help new anglers identify the fish they catch.&lt;/p&gt;
 &lt;h4 id=&#34;collecting-images&#34;&gt;Collecting Images&lt;/h4&gt;
 &lt;p&gt;I decided to train a model able to recognise five of the most common recreational fish species caught along the East Coast of Australia; bream, whiting, flathead, luderick and whiting.&lt;/p&gt;
@@ -67,10 +67,10 @@
     
     <item>
       <title>Mobile Passport Scanner 🛂</title>
-      <link>https://ovdixon.com/posts/passport-scanner/</link>
+      <link>https://ovdixon.com/projects/passport-scanner/</link>
       <pubDate>Tue, 07 Apr 2020 14:12:24 +1000</pubDate>
       
-      <guid>https://ovdixon.com/posts/passport-scanner/</guid>
+      <guid>https://ovdixon.com/projects/passport-scanner/</guid>
       <description>&lt;h4 id=&#34;problem&#34;&gt;Problem&lt;/h4&gt;
 &lt;p&gt;In the hospitality industry, hotels are often required to provide passport data of guests to immigration services. Passport data can be manually entered and forwarded on, however this is inefficient when dealing with a large number of guests.&lt;/p&gt;
 &lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;

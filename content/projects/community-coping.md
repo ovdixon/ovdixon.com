@@ -3,7 +3,7 @@ title: "Tackling COVID-19 Misinformation through Design 🔎 "
 date: 2020-10-07T14:12:24+10:00
 draft: false
 summary: "Group project completed as part of an Interactive Product Design Studio"
-tags: ["misinformation","community","web"] 
+tags: ["ux","javascript", "misinformation"] 
 ---
 
 
