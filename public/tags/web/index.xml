@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>web on ovdixon</title>
+    <title>web on Oliver Dixon</title>
     <link>https://ovdixon.com/tags/web/</link>
-    <description>ovdixon (web)</description>
+    <description>Oliver Dixon (web)</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Jun 2021 14:12:24 +1000</lastBuildDate>
@@ -35,8 +35,9 @@
       <pubDate>Thu, 10 Jun 2021 14:12:24 +1000</pubDate>
       
       <guid>https://ovdixon.com/projects/bahasa-buddy/</guid>
-      <description>&lt;p&gt;This was a web prototype I developed for an Advanced Web Design course. The brief was to design a web application to help people manage their study sessions. I narrowed it down further to focus on people learning the Indonesian language (Bahasa). The app does not include any Indonesian language content, as this was outside the brief. Rather it helps people maximise their language study productivity through various features like Pomodoro timers and editable flash cards. It is rather bare bones in terms of design but it was developed from scratch (template free) using HTML, CSS and JavaScript. It is also presented as a single page app meaning the app is dynamically updated based on user interaction without a page refresh.&lt;/p&gt;
-&lt;p&gt;You can have play around with the app below. You can also check out the app code &lt;a href=&#34;https://github.com/ovdixon/bahasa-bud&#34;&gt;here&lt;/a&gt;. &lt;br&gt;&lt;br&gt;&lt;/p&gt;
+      <description>&lt;p&gt;This was a web prototype I developed for an Advanced Web Design course. The brief was to design a web application to help people manage their study sessions. I narrowed it down further to focus on people learning the Indonesian language (Bahasa). The app does not include any Indonesian language content, as this was outside the brief. Rather it helps people maximise their language study productivity through various features like Pomodoro timers and editable flash cards.&lt;/p&gt;
+&lt;p&gt;It is rather bare bones in terms of design but it was developed from scratch (template free) using HTML, CSS and JavaScript. It is also presented as a single page app meaning the app is dynamically updated based on user interaction without a page refresh.&lt;/p&gt;
+&lt;p&gt;Have play around with the app below. You can also check out the app code &lt;a href=&#34;https://github.com/ovdixon/bahasa-bud&#34;&gt;here&lt;/a&gt;. &lt;br&gt;&lt;br&gt;&lt;/p&gt;
   	
 
 &lt;div&gt;
@@ -44,7 +45,6 @@
 &lt;/div&gt;
 
 
-&lt;p&gt;&lt;a href=&#34;https://bahasa-bud.ovdixon.repl.co/#study&#34;&gt;https://bahasa-bud.ovdixon.repl.co/#study&lt;/a&gt;&lt;/p&gt;
 </description>
     </item>
     
