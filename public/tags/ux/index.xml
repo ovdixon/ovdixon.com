@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ux on ovdixon</title>
+    <link>https://ovdixon.com/tags/ux/</link>
+    <description>ovdixon (ux)</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 10 Jun 2021 14:12:24 +1000</lastBuildDate>
+    
+    <atom:link href="https://ovdixon.com/tags/ux/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Bahasa Buddy 🇮🇩</title>
+      <link>https://ovdixon.com/projects/bahasa-buddy/</link>
+      <pubDate>Thu, 10 Jun 2021 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/projects/bahasa-buddy/</guid>
+      <description>&lt;p&gt;This was a web prototype I developed for an Advanced Web Design course. The brief was to design a web application to help people manage their study sessions. I narrowed it down further to focus on people learning the Indonesian language (Bahasa). The app does not include any Indonesian language content, as this was outside the brief. Rather it helps people maximise their language study productivity through various features like Pomodoro timers and editable flash cards. It is rather bare bones in terms of design but it was developed from scratch (template free) using HTML, CSS and JavaScript. It is also presented as a single page app meaning the app is dynamically updated based on user interaction without a page refresh.&lt;/p&gt;
+&lt;p&gt;You can have play around with the app below. You can also check out the app code &lt;a href=&#34;https://github.com/ovdixon/bahasa-bud&#34;&gt;here&lt;/a&gt;. &lt;br&gt;&lt;br&gt;&lt;/p&gt;
+  	
+
+&lt;div&gt;
+	&lt;iframe style=&#34;width:100%; height:750px; border: 1px solid black;&#34; src=&#34;https://bahasa-bud.ovdixon.repl.co/#study&#34;&gt;&lt;/iframe&gt;
+&lt;/div&gt;
+
+
+&lt;p&gt;&lt;a href=&#34;https://bahasa-bud.ovdixon.repl.co/#study&#34;&gt;https://bahasa-bud.ovdixon.repl.co/#study&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Tackling COVID-19 Misinformation through Design 🔎 </title>
+      <link>https://ovdixon.com/projects/community-coping/</link>
+      <pubDate>Wed, 07 Oct 2020 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/projects/community-coping/</guid>
+      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;echo.jpg&#34;
+         alt=&#34;Christophe Vorlet @nytimes&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Christophe Vorlet @nytimes&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;p&gt;This was a group project completed as part of an Interactive Product Design Studio. The focus area was Tackling COVID-19 Misinformation through Design. Rather than trying to censor misinformation  we reframed the brief; how could we improve the capacity of communities to cope with the socio-emotional impacts of such information.&lt;/p&gt;
+&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
+&lt;p&gt;Below is a (very) high-level summary of our design process:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;Ideated several concepts&lt;/li&gt;
+&lt;li&gt;Collected user feedback&lt;/li&gt;
+&lt;li&gt;Iterated and refined to a single concept&lt;/li&gt;
+&lt;li&gt;Usability testing&lt;/li&gt;
+&lt;li&gt;High-fidelity prototype&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;The chosen concept was a &lt;em&gt;community-based platform that facilitates users in sharing strategies to cope with the impacts of COVID-19 misinformation and mandated lockdowns&lt;/em&gt;.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;feedback.jpg&#34;
+         alt=&#34;Concept feedback session over Zoom&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Concept feedback session over Zoom&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;xd.jpg&#34;
+         alt=&#34;Interactive protoype in Adobe XD&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Interactive protoype in Adobe XD&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
+&lt;p&gt;The web application was developed as a mobile-first static website. It is more a proof of concept with the opportunity to develop the greater functionality in the future.&lt;/p&gt;
+&lt;p&gt;Check the app out live &lt;a href=&#34;https://community-coping-3200.glitch.me&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;glitch.jpg&#34;
+         alt=&#34;The app is hosted on Glitch.&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;The app is hosted on &lt;a href=&#34;https://glitch.com&#34;&gt;Glitch&lt;/a&gt;.&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+</description>
+    </item>
+    
+    <item>
+      <title>Fishing Licence Onboarding Redesign 🎣</title>
+      <link>https://ovdixon.com/projects/fishing-licence/</link>
+      <pubDate>Wed, 01 Jul 2020 14:12:24 +1000</pubDate>
+      
+      <guid>https://ovdixon.com/projects/fishing-licence/</guid>
+      <description>&lt;h4 id=&#34;inspiration&#34;&gt;Inspiration&lt;/h4&gt;
+&lt;p&gt;The current process of purchasing a recreational fishing licence online in NSW violates several principles of visual, navigation, and interaction design.&lt;/p&gt;
+&lt;h4 id=&#34;ideation&#34;&gt;Ideation&lt;/h4&gt;
+&lt;p&gt;I sought to develop an alternative web-based (mobile &amp;amp; desktop) onboarding process for purchasing a fishing licence. I began with some user profiles to understand who would be using the site. Fishing attracts a diverse range of people of all ages. It is important that the licence onboarding be an accessible lightweight experience focused on efficiency.&lt;/p&gt;
+&lt;figure&gt;
+    &lt;img src=&#34;sketch.png&#34;
+         alt=&#34;Initial annotated sketches&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Initial annotated sketches&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;wireframe.png&#34;
+         alt=&#34;Next came low fidelity wireframes&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Next came low fidelity wireframes&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;figure&gt;
+    &lt;img src=&#34;mockup.png&#34;
+         alt=&#34;Finally mockups developed using Adobe XD&#34;/&gt; &lt;figcaption&gt;
+            &lt;p&gt;Finally mockups developed using Adobe XD&lt;/p&gt;
+        &lt;/figcaption&gt;
+&lt;/figure&gt;
+
+&lt;h4 id=&#34;implementation&#34;&gt;Implementation&lt;/h4&gt;
+&lt;p&gt;It was developed from the ground up using HTML, CSS and JS  Several features, including a progress bar and sticky navigation, were designed to give the user a greater sense of control.&lt;br&gt;
+I received the following feedback from the marker: &amp;ldquo;You scoped this project excellently!  Good use of code, only minor mistakes and consistent styling and use of javascript. The website itself was excellently done.&amp;rdquo;&lt;/p&gt;
+&lt;p&gt;Check it out live at: &lt;a href=&#34;https://odix8891.github.io/deco-1016-website/&#34;&gt;https://odix8891.github.io/deco-1016-website/&lt;/a&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

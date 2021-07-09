@@ -1,0 +1,29 @@
+@media (min-width: 600px) {
+	section {
+	    margin: auto;
+	    padding-top: 10px;
+	}
+	div#sectionleft {
+	    float: left;
+	    margin-right: 40px;
+		width: 150px;
+	}
+	
+	img {
+		border: 2px solid black;
+		
+	}
+	div#sectionright {
+	    margin: auto;
+		text-align: justify;
+	}
+}
+
+@media (max-width: 600px) {
+	
+	
+	img {
+		border: 2px solid black;
+		width: 220px;
+	}
+}
